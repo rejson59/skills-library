@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 1,
-    "generatedAt": "2026-11-25T17:59:52Z",
+    "generatedAt": "2026-11-25T18:05:57Z",
     "generatedDate": "2026-11-25",
     "repository": "rejson59/skills-library",
     "license": "MIT",
@@ -19,11 +19,11 @@
       "skillFilesFound": 108698,
       "uniqueSkillFoldersFound": 93362,
       "curatedCollections": 124,
-      "discoveredCollections": 77,
-      "collections": 201,
+      "discoveredCollections": 78,
+      "collections": 202,
       "indexedSkills": 976,
       "officialCollections": 23,
-      "clearLicenseCollections": 167,
+      "clearLicenseCollections": 168,
       "specCompliantSkills": 972,
       "skillsNeedingReview": 413
     },
@@ -103,7 +103,7 @@
       "pl": "Pisanie i komunikacja",
       "icon": "✍️",
       "skillCount": 21,
-      "collectionCount": 8
+      "collectionCount": 9
     },
     {
       "id": "meta",
@@ -420,7 +420,7 @@
         "design",
         "claude"
       ],
-      "stars": 200383,
+      "stars": 200387,
       "forks": 23434,
       "language": "Python",
       "topics": [
@@ -482,7 +482,7 @@
         "plugins",
         "claude"
       ],
-      "stars": 48190,
+      "stars": 48191,
       "forks": 5045,
       "language": "Python",
       "topics": [
@@ -557,7 +557,7 @@
         "review",
         "spec"
       ],
-      "stars": 332737,
+      "stars": 332744,
       "forks": 27982,
       "language": "Shell",
       "topics": [],
@@ -626,7 +626,7 @@
         "planning",
         "workflow"
       ],
-      "stars": 326423,
+      "stars": 326426,
       "forks": 28964,
       "language": "Shell",
       "topics": [
@@ -704,7 +704,7 @@
         "security",
         "frontend"
       ],
-      "stars": 120384,
+      "stars": 120386,
       "forks": 12516,
       "language": "JavaScript",
       "topics": [
@@ -779,7 +779,7 @@
         "security",
         "research"
       ],
-      "stars": 310591,
+      "stars": 310595,
       "forks": 45632,
       "language": "JavaScript",
       "topics": [
@@ -907,8 +907,8 @@
         "review",
         "audit"
       ],
-      "stars": 198597,
-      "forks": 11262,
+      "stars": 198599,
+      "forks": 11263,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -1049,7 +1049,7 @@
         "output",
         "adhd"
       ],
-      "stars": 62288,
+      "stars": 62289,
       "forks": 3654,
       "language": "Python",
       "topics": [
@@ -1241,7 +1241,7 @@
         "review",
         "principles"
       ],
-      "stars": 5157,
+      "stars": 5158,
       "forks": 394,
       "language": "TypeScript",
       "topics": [
@@ -2017,7 +2017,7 @@
         "sheets"
       ],
       "stars": 32477,
-      "forks": 2018,
+      "forks": 2019,
       "language": "Rust",
       "topics": [
         "agent-skills",
@@ -2241,7 +2241,7 @@
         "registry",
         "find-skills"
       ],
-      "stars": 40865,
+      "stars": 40866,
       "forks": 3614,
       "language": "TypeScript",
       "topics": [],
@@ -2427,7 +2427,7 @@
         "design",
         "react"
       ],
-      "stars": 12914,
+      "stars": 12915,
       "forks": 1534,
       "language": "TypeScript",
       "topics": [],
@@ -2624,7 +2624,7 @@
         "audit",
         "security"
       ],
-      "stars": 78258,
+      "stars": 78260,
       "forks": 5291,
       "language": "JavaScript",
       "topics": [],
@@ -2788,7 +2788,7 @@
         "audit",
         "scanner"
       ],
-      "stars": 27642,
+      "stars": 27643,
       "forks": 2472,
       "language": "Python",
       "topics": [
@@ -3023,7 +3023,7 @@
         "code-review",
         "alibaba"
       ],
-      "stars": 56303,
+      "stars": 56306,
       "forks": 4652,
       "language": "Go",
       "topics": [
@@ -3086,7 +3086,7 @@
         "solidity"
       ],
       "stars": 8426,
-      "forks": 732,
+      "forks": 733,
       "language": "Python",
       "topics": [
         "agent-skills"
@@ -3396,7 +3396,7 @@
         "automation",
         "vulnerability"
       ],
-      "stars": 77547,
+      "stars": 77548,
       "forks": 8836,
       "language": "Python",
       "topics": [
@@ -3414,7 +3414,7 @@
         "ethical-hacking"
       ],
       "branch": "main",
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "archived": false,
@@ -3700,8 +3700,8 @@
         "ux",
         "design-system"
       ],
-      "stars": 154101,
-      "forks": 16227,
+      "stars": 154104,
+      "forks": 16228,
       "language": "Python",
       "topics": [
         "ai-skills",
@@ -3838,8 +3838,8 @@
         "polish",
         "review"
       ],
-      "stars": 116740,
-      "forks": 6979,
+      "stars": 116745,
+      "forks": 6981,
       "language": "Rust",
       "topics": [
         "agent-skills",
@@ -3899,7 +3899,7 @@
         "ui",
         "design"
       ],
-      "stars": 59487,
+      "stars": 59488,
       "forks": 3508,
       "language": "Markdown",
       "topics": [
@@ -3966,7 +3966,7 @@
         "design",
         "review"
       ],
-      "stars": 60973,
+      "stars": 60974,
       "forks": 3337,
       "language": "CSS",
       "topics": [],
@@ -4019,7 +4019,7 @@
         "diagrams",
         "editorial"
       ],
-      "stars": 72805,
+      "stars": 72807,
       "forks": 4842,
       "language": "HTML",
       "topics": [
@@ -4078,7 +4078,7 @@
         "codex",
         "builder"
       ],
-      "stars": 8308,
+      "stars": 8309,
       "forks": 952,
       "language": "HTML",
       "topics": [],
@@ -4379,7 +4379,7 @@
         "design",
         "ui"
       ],
-      "stars": 16684,
+      "stars": 16686,
       "forks": 1312,
       "language": "Python",
       "topics": [],
@@ -4496,7 +4496,7 @@
         "bioinformatics",
         "chemistry"
       ],
-      "stars": 58455,
+      "stars": 58456,
       "forks": 5121,
       "language": "Python",
       "topics": [
@@ -5076,7 +5076,7 @@
         "investing",
         "markets"
       ],
-      "stars": 8426,
+      "stars": 8427,
       "forks": 1551,
       "language": "Python",
       "topics": [],
@@ -5330,7 +5330,7 @@
         "gamedev",
         "directory"
       ],
-      "stars": 11115,
+      "stars": 11117,
       "forks": 1147,
       "language": "Python",
       "topics": [
@@ -5545,7 +5545,7 @@
         "founder"
       ],
       "stars": 11214,
-      "forks": 1127,
+      "forks": 1128,
       "language": null,
       "topics": [],
       "branch": "main",
@@ -5905,7 +5905,7 @@
         "skills"
       ],
       "stars": 8443,
-      "forks": 587,
+      "forks": 588,
       "language": null,
       "topics": [
         "ai-visibility",
@@ -5964,7 +5964,7 @@
         "ai-detection",
         "editing"
       ],
-      "stars": 73518,
+      "stars": 73520,
       "forks": 5766,
       "language": "Python",
       "topics": [
@@ -6028,7 +6028,7 @@
         "editing",
         "audit"
       ],
-      "stars": 6303,
+      "stars": 6304,
       "forks": 525,
       "language": "JavaScript",
       "topics": [
@@ -6087,8 +6087,8 @@
         "writing",
         "editing"
       ],
-      "stars": 21635,
-      "forks": 1336,
+      "stars": 21640,
+      "forks": 1337,
       "language": "JavaScript",
       "topics": [],
       "branch": "main",
@@ -6138,7 +6138,7 @@
         "jobs",
         "automation"
       ],
-      "stars": 84790,
+      "stars": 84791,
       "forks": 15505,
       "language": "JavaScript",
       "topics": [
@@ -6209,8 +6209,8 @@
         "directory",
         "integrations"
       ],
-      "stars": 80290,
-      "forks": 9877,
+      "stars": 80291,
+      "forks": 9878,
       "language": "Python",
       "topics": [
         "agent-skills",
@@ -6295,7 +6295,7 @@
         "cli",
         "mcp"
       ],
-      "stars": 50317,
+      "stars": 50318,
       "forks": 7299,
       "language": "Python",
       "topics": [
@@ -6313,7 +6313,7 @@
         "codex-skills"
       ],
       "branch": "main",
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "archived": false,
@@ -6344,7 +6344,7 @@
       "packs": [
         "learning"
       ],
-      "score": 66.0,
+      "score": 66.01,
       "install": "npx skills add sickn33/agentic-awesome-skills",
       "verifiedSkills": true,
       "maxSkills": 16,
@@ -6380,7 +6380,7 @@
         "business",
         "engineering"
       ],
-      "stars": 30471,
+      "stars": 30472,
       "forks": 4202,
       "language": "Python",
       "topics": [
@@ -7119,7 +7119,7 @@
         "quality",
         "curated"
       ],
-      "stars": 58789,
+      "stars": 58791,
       "forks": 5018,
       "language": "Python",
       "topics": [
@@ -7726,7 +7726,7 @@
         "memory",
         "optimization"
       ],
-      "stars": 34474,
+      "stars": 34475,
       "forks": 2376,
       "language": "JavaScript",
       "topics": [
@@ -7791,7 +7791,7 @@
         "orchestration",
         "terminal"
       ],
-      "stars": 137671,
+      "stars": 137676,
       "forks": 8810,
       "language": "TypeScript",
       "topics": [
@@ -7809,7 +7809,7 @@
         "openclaw"
       ],
       "branch": "main",
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "archived": false,
@@ -7862,7 +7862,7 @@
         "architecture",
         "explainer"
       ],
-      "stars": 99848,
+      "stars": 99852,
       "forks": 6829,
       "language": "JavaScript",
       "topics": [
@@ -8120,7 +8120,7 @@
         "design",
         "chinese"
       ],
-      "stars": 30946,
+      "stars": 30947,
       "forks": 3282,
       "language": "HTML",
       "topics": [
@@ -8290,7 +8290,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 40891,
+      "stars": 40892,
       "forks": 5372,
       "language": "Shell",
       "topics": [
@@ -8894,7 +8894,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 28628,
+      "stars": 28631,
       "forks": 3201,
       "language": "Python",
       "topics": [
@@ -9118,7 +9118,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 22554,
+      "stars": 22555,
       "forks": 1750,
       "language": "Python",
       "topics": [
@@ -9173,7 +9173,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 21035,
+      "stars": 21036,
       "forks": 2706,
       "language": "JavaScript",
       "topics": [
@@ -9645,7 +9645,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 12727,
+      "stars": 12728,
       "forks": 497,
       "language": "Markdown",
       "topics": [],
@@ -9999,7 +9999,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 10667,
+      "stars": 10668,
       "forks": 403,
       "language": "Shell",
       "topics": [
@@ -10227,7 +10227,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 9591,
+      "stars": 9592,
       "forks": 2309,
       "language": "Python",
       "topics": [
@@ -10262,6 +10262,67 @@
       "packs": [],
       "score": 52.14,
       "install": "npx skills add Jakeschincariol/day-trader-skill",
+      "verifiedSkills": true,
+      "maxSkills": 0,
+      "picks": []
+    },
+    {
+      "id": "zenstory-ai/oh-story-claudecode",
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "owner": "zenstory-ai",
+      "name": "oh-story-claudecode",
+      "url": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "homepage": "https://zenstory.ai/zh/oh-story",
+      "description": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
+      "note": "Automatically discovered from GitHub search — not editorially reviewed. Verify the source before installing.",
+      "notePl": "Znalezione automatycznie w wyszukiwarce GitHub — bez ręcznej weryfikacji. Sprawdź źródło przed instalacją.",
+      "category": "writing",
+      "tags": [
+        "auto-discovered",
+        "community"
+      ],
+      "stars": 8933,
+      "forks": 1256,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-novel-writing",
+        "ai-writing",
+        "antigravity",
+        "chinese-novel",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "creative-writing",
+        "fiction-writing"
+      ],
+      "branch": "main",
+      "pushedAt": "2026-11-24T18:02:48Z",
+      "daysSincePush": 1,
+      "freshness": "active",
+      "archived": false,
+      "license": {
+        "spdx": "MIT",
+        "status": "clear",
+        "label": "MIT",
+        "note": null,
+        "files": [
+          "LICENSE"
+        ]
+      },
+      "skillCount": 14,
+      "sourceType": "collection",
+      "skillFileCount": 14,
+      "truncatedTree": false,
+      "official": false,
+      "featured": false,
+      "tier": "discovered",
+      "reviewed": false,
+      "packs": [],
+      "score": 52.21,
+      "install": "npx skills add zenstory-ai/oh-story-claudecode",
       "verifiedSkills": true,
       "maxSkills": 0,
       "picks": []
@@ -10329,7 +10390,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 8293,
+      "stars": 8298,
       "forks": 1441,
       "language": "JavaScript",
       "topics": [
@@ -10623,7 +10684,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 7747,
+      "stars": 7748,
       "forks": 604,
       "language": "HTML",
       "topics": [
@@ -11263,7 +11324,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 5010,
+      "stars": 5011,
       "forks": 843,
       "language": "Python",
       "topics": [
@@ -12837,7 +12898,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -12902,7 +12963,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -12969,7 +13030,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13035,7 +13096,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 78258,
+      "stars": 78260,
       "pushedAt": "2026-09-14T19:29:02Z",
       "daysSincePush": 71,
       "freshness": "active",
@@ -13174,7 +13235,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 40865,
+      "stars": 40866,
       "pushedAt": "2026-11-17T00:58:04Z",
       "daysSincePush": 8,
       "freshness": "active",
@@ -13238,7 +13299,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -13310,7 +13371,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -13376,7 +13437,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13439,7 +13500,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13502,7 +13563,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13566,7 +13627,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13630,7 +13691,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13696,7 +13757,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13763,7 +13824,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13828,7 +13889,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13892,7 +13953,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -13956,7 +14017,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14022,7 +14083,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14087,7 +14148,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14151,7 +14212,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14217,7 +14278,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14284,7 +14345,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14352,7 +14413,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
       },
-      "stars": 200383,
+      "stars": 200387,
       "pushedAt": "2026-11-16T14:22:50Z",
       "daysSincePush": 9,
       "freshness": "active",
@@ -14419,7 +14480,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -14484,7 +14545,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -14552,7 +14613,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14619,7 +14680,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14691,7 +14752,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14759,7 +14820,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14828,7 +14889,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14896,7 +14957,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -14962,7 +15023,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15033,7 +15094,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15100,7 +15161,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15168,7 +15229,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15233,7 +15294,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15301,7 +15362,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15368,7 +15429,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15438,7 +15499,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15507,7 +15568,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15573,7 +15634,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 310591,
+      "stars": 310595,
       "pushedAt": "2026-11-23T04:55:48Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -15704,7 +15765,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -15769,7 +15830,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -15895,7 +15956,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 73518,
+      "stars": 73520,
       "pushedAt": "2026-11-19T18:53:14Z",
       "daysSincePush": 5,
       "freshness": "active",
@@ -15960,7 +16021,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 62288,
+      "stars": 62289,
       "pushedAt": "2026-10-19T19:46:23Z",
       "daysSincePush": 36,
       "freshness": "active",
@@ -16023,7 +16084,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 60973,
+      "stars": 60974,
       "pushedAt": "2026-11-11T11:56:16Z",
       "daysSincePush": 14,
       "freshness": "active",
@@ -16088,7 +16149,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16150,7 +16211,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16213,7 +16274,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16277,7 +16338,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16338,7 +16399,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16401,7 +16462,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16464,7 +16525,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16526,7 +16587,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16589,7 +16650,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16651,7 +16712,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16715,7 +16776,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16778,7 +16839,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16840,7 +16901,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -16905,7 +16966,7 @@
         "spdx": null,
         "note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
       },
-      "stars": 80290,
+      "stars": 80291,
       "pushedAt": "2026-09-18T07:16:11Z",
       "daysSincePush": 68,
       "freshness": "active",
@@ -19879,7 +19940,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 40865,
+      "stars": 40866,
       "pushedAt": "2026-11-17T00:58:04Z",
       "daysSincePush": 8,
       "freshness": "active",
@@ -19942,7 +20003,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 40865,
+      "stars": 40866,
       "pushedAt": "2026-11-17T00:58:04Z",
       "daysSincePush": 8,
       "freshness": "active",
@@ -20007,7 +20068,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20076,7 +20137,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20143,7 +20204,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20216,7 +20277,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20288,7 +20349,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20362,7 +20423,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20437,7 +20498,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20511,7 +20572,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20580,7 +20641,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20652,7 +20713,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20718,7 +20779,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20794,7 +20855,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20865,7 +20926,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -20932,7 +20993,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -21008,7 +21069,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -21075,7 +21136,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -21151,7 +21212,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 58455,
+      "stars": 58456,
       "pushedAt": "2026-11-23T09:18:27Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -21225,7 +21286,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21290,7 +21351,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21360,7 +21421,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21426,7 +21487,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21490,7 +21551,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21556,7 +21617,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21622,7 +21683,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21688,7 +21749,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21753,7 +21814,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21819,7 +21880,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21886,7 +21947,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -21950,7 +22011,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22018,7 +22079,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22082,7 +22143,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22146,7 +22207,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22217,7 +22278,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22283,7 +22344,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22349,7 +22410,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22415,7 +22476,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 120384,
+      "stars": 120386,
       "pushedAt": "2026-11-24T07:11:17Z",
       "daysSincePush": 1,
       "freshness": "active",
@@ -22478,7 +22539,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22543,7 +22604,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22610,7 +22671,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22671,7 +22732,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22732,7 +22793,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22796,7 +22857,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 198597,
+      "stars": 198599,
       "pushedAt": "2026-11-22T02:31:58Z",
       "daysSincePush": 3,
       "freshness": "active",
@@ -22857,7 +22918,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -22920,7 +22981,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -22983,7 +23044,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23048,7 +23109,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23110,7 +23171,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23175,7 +23236,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23245,7 +23306,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23309,7 +23370,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23374,7 +23435,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23436,7 +23497,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -23499,7 +23560,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26059,7 +26120,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26125,7 +26186,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26190,7 +26251,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26256,7 +26317,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26321,7 +26382,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26388,7 +26449,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26454,7 +26515,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26519,7 +26580,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26585,7 +26646,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26649,7 +26710,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26713,7 +26774,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26778,7 +26839,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26848,7 +26909,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26912,7 +26973,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -26976,7 +27037,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -27041,7 +27102,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -27106,7 +27167,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -27172,7 +27233,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -27237,7 +27298,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 332737,
+      "stars": 332744,
       "pushedAt": "2026-11-25T12:09:27Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -27302,7 +27363,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27367,7 +27428,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27432,7 +27493,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27497,7 +27558,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27559,7 +27620,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27623,7 +27684,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27688,7 +27749,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27752,7 +27813,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27815,7 +27876,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27879,7 +27940,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -27941,7 +28002,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -28010,7 +28071,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -28072,7 +28133,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -28141,7 +28202,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -28203,7 +28264,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 59487,
+      "stars": 59488,
       "pushedAt": "2026-11-15T12:42:50Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -28266,8 +28327,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28298,7 +28359,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/00-andruia-consultant .agents/skills/00-andruia-consultant",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/007",
@@ -28330,8 +28391,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28362,7 +28423,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/007 .agents/skills/007",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/10-andruia-skill-smith",
@@ -28393,8 +28454,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28425,7 +28486,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/10-andruia-skill-smith .agents/skills/10-andruia-skill-smith",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/20-andruia-niche-intelligence",
@@ -28455,8 +28516,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28487,7 +28548,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/20-andruia-niche-intelligence .agents/skills/20-andruia-niche-intelligence",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/accesslint-audit",
@@ -28520,8 +28581,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28558,7 +28619,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/accesslint-audit .agents/skills/accesslint-audit",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/agent-evaluation",
@@ -28589,8 +28650,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28621,7 +28682,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/agent-evaluation .agents/skills/agent-evaluation",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/context-window-management",
@@ -28652,8 +28713,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28684,7 +28745,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/context-window-management .agents/skills/context-window-management",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/llm-app-patterns",
@@ -28715,8 +28776,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28747,7 +28808,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/llm-app-patterns .agents/skills/llm-app-patterns",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/mcp-builder",
@@ -28778,8 +28839,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28810,7 +28871,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/mcp-builder .agents/skills/mcp-builder",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/prompt-engineering",
@@ -28842,8 +28903,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28874,7 +28935,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/prompt-engineering .agents/skills/prompt-engineering",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/rag-engineer",
@@ -28903,8 +28964,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28935,7 +28996,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/rag-engineer .agents/skills/rag-engineer",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/senior-fullstack",
@@ -28967,8 +29028,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -28999,7 +29060,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/senior-fullstack .agents/skills/senior-fullstack",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/skill-security-audit",
@@ -29031,8 +29092,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -29070,7 +29131,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/skill-security-audit .agents/skills/skill-security-audit",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/stripe-integration",
@@ -29099,8 +29160,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -29131,7 +29192,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/stripe-integration .agents/skills/stripe-integration",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/ui-a11y",
@@ -29163,8 +29224,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -29196,7 +29257,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/ui-a11y .agents/skills/ui-a11y",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "sickn33/agentic-awesome-skills/webapp-testing",
@@ -29226,8 +29287,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 50317,
-      "pushedAt": "2026-11-25T17:56:49Z",
+      "stars": 50318,
+      "pushedAt": "2026-11-25T18:05:48Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -29258,7 +29319,7 @@
         "manual": "git clone --depth 1 https://github.com/sickn33/agentic-awesome-skills.git /tmp/agentic-awesome-skills && cp -r /tmp/agentic-awesome-skills/skills/webapp-testing .agents/skills/webapp-testing",
         "collection": "npx skills add sickn33/agentic-awesome-skills"
       },
-      "score": 70.0
+      "score": 70.01
     },
     {
       "id": "duckdb/duckdb-skills/query",
@@ -30175,7 +30236,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30239,7 +30300,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30304,7 +30365,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30369,7 +30430,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30433,7 +30494,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30498,7 +30559,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30563,7 +30624,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30628,7 +30689,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30693,7 +30754,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30757,7 +30818,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30822,7 +30883,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30887,7 +30948,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -30953,7 +31014,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 326423,
+      "stars": 326426,
       "pushedAt": "2026-11-24T23:59:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -31984,7 +32045,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 48190,
+      "stars": 48191,
       "pushedAt": "2026-11-25T07:32:58Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36309,7 +36370,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36375,7 +36436,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36442,7 +36503,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36508,7 +36569,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36575,7 +36636,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36640,7 +36701,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -36712,7 +36773,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 154101,
+      "stars": 154104,
       "pushedAt": "2026-11-24T19:05:41Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -38253,7 +38314,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 27642,
+      "stars": 27643,
       "pushedAt": "2026-11-25T17:30:37Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -39123,7 +39184,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 56303,
+      "stars": 56306,
       "pushedAt": "2026-11-25T14:11:08Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -39192,7 +39253,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 56303,
+      "stars": 56306,
       "pushedAt": "2026-11-25T14:11:08Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -40617,7 +40678,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 116740,
+      "stars": 116745,
       "pushedAt": "2026-11-25T07:50:46Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -43511,7 +43572,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43575,7 +43636,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43637,7 +43698,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43697,7 +43758,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43760,7 +43821,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43824,7 +43885,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43886,7 +43947,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -43948,7 +44009,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -44011,7 +44072,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -44072,7 +44133,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 11115,
+      "stars": 11117,
       "pushedAt": "2026-11-12T07:38:53Z",
       "daysSincePush": 13,
       "freshness": "active",
@@ -44135,8 +44196,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44199,8 +44260,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44264,8 +44325,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44329,8 +44390,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44392,8 +44453,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44457,8 +44518,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44522,8 +44583,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44586,8 +44647,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44651,8 +44712,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -44717,8 +44778,8 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 137671,
-      "pushedAt": "2026-11-25T17:59:04Z",
+      "stars": 137676,
+      "pushedAt": "2026-11-25T18:01:43Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -45552,7 +45613,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45618,7 +45679,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45684,7 +45745,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45757,7 +45818,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45822,7 +45883,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45894,7 +45955,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -45959,7 +46020,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46025,7 +46086,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46088,7 +46149,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46150,7 +46211,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46213,7 +46274,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46278,7 +46339,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46347,7 +46408,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -46408,7 +46469,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30471,
+      "stars": 30472,
       "pushedAt": "2026-11-25T05:05:44Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48124,7 +48185,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48186,7 +48247,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48252,7 +48313,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48316,7 +48377,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48381,7 +48442,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48445,7 +48506,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48507,7 +48568,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48570,7 +48631,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48634,7 +48695,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48699,7 +48760,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48762,7 +48823,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48826,7 +48887,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48888,7 +48949,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -48955,7 +49016,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 12914,
+      "stars": 12915,
       "pushedAt": "2026-11-24T21:51:04Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -50210,7 +50271,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 30946,
+      "stars": 30947,
       "pushedAt": "2026-11-23T06:13:20Z",
       "daysSincePush": 2,
       "freshness": "active",
@@ -52721,7 +52782,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -52788,7 +52849,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -52852,7 +52913,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -52917,7 +52978,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -52984,7 +53045,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -53050,7 +53111,7 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 99848,
+      "stars": 99852,
       "pushedAt": "2026-11-25T16:09:18Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -53804,8 +53865,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -53880,8 +53941,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -53953,8 +54014,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54028,8 +54089,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54099,8 +54160,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54176,8 +54237,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54187,7 +54248,7 @@
       "spotlight": false,
       "specCompliant": true,
       "verified": true,
-      "contentLength": 23598,
+      "contentLength": 24407,
       "frontmatter": {
         "name": "managed-pentesting-with-strix",
         "description": "Run a managed pentest of a web app, API, repository, or local workspace on the app.strix.ai platform with the `strix cloud` CLI or REST API — no local Docker or LLM key needed. Safely review and upload local source, register assets, launch and poll scans, triage vulnerabilities, export SARIF, download compliance reports, start PR reviews, buy credits, and set up schedules or webhooks. Use for managed, continuous, scheduled, team-tracked, or sandboxed-agent security testing.",
@@ -54249,8 +54310,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54323,8 +54384,8 @@
         "spdx": "Apache-2.0",
         "note": null
       },
-      "stars": 77547,
-      "pushedAt": "2026-11-25T17:54:49Z",
+      "stars": 77548,
+      "pushedAt": "2026-11-25T18:05:26Z",
       "daysSincePush": 0,
       "freshness": "active",
       "official": false,
@@ -54389,7 +54450,7 @@
         "spdx": "CC-BY-4.0",
         "note": null
       },
-      "stars": 21635,
+      "stars": 21640,
       "pushedAt": "2026-11-15T00:55:20Z",
       "daysSincePush": 10,
       "freshness": "active",
@@ -55015,7 +55076,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 16684,
+      "stars": 16686,
       "pushedAt": "2026-11-01T23:24:10Z",
       "daysSincePush": 23,
       "freshness": "active",
@@ -55079,7 +55140,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 16684,
+      "stars": 16686,
       "pushedAt": "2026-11-01T23:24:10Z",
       "daysSincePush": 23,
       "freshness": "active",
@@ -56634,7 +56695,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 84790,
+      "stars": 84791,
       "pushedAt": "2026-11-25T10:53:56Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -57580,7 +57641,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 72805,
+      "stars": 72807,
       "pushedAt": "2026-11-25T04:53:00Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60532,7 +60593,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60596,7 +60657,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60657,7 +60718,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60719,7 +60780,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60782,7 +60843,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60844,7 +60905,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60908,7 +60969,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -60972,7 +61033,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61034,7 +61095,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61097,7 +61158,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61160,7 +61221,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61223,7 +61284,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61286,7 +61347,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -61348,7 +61409,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8308,
+      "stars": 8309,
       "pushedAt": "2026-11-25T08:19:17Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -63200,7 +63261,7 @@
         "spdx": "NOASSERTION",
         "note": null
       },
-      "stars": 34474,
+      "stars": 34475,
       "pushedAt": "2026-11-25T16:24:46Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -63261,7 +63322,7 @@
         "spdx": "NOASSERTION",
         "note": null
       },
-      "stars": 34474,
+      "stars": 34475,
       "pushedAt": "2026-11-25T16:24:46Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -63324,7 +63385,7 @@
         "spdx": "NOASSERTION",
         "note": null
       },
-      "stars": 34474,
+      "stars": 34475,
       "pushedAt": "2026-11-25T16:24:46Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -63387,7 +63448,7 @@
         "spdx": "NOASSERTION",
         "note": null
       },
-      "stars": 34474,
+      "stars": 34475,
       "pushedAt": "2026-11-25T16:24:46Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66354,7 +66415,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66417,7 +66478,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66479,7 +66540,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66540,7 +66601,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66603,7 +66664,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66667,7 +66728,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66730,7 +66791,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66794,7 +66855,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66855,7 +66916,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66916,7 +66977,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -66979,7 +67040,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -67043,7 +67104,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 8426,
+      "stars": 8427,
       "pushedAt": "2026-11-25T17:55:12Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68665,7 +68726,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68726,7 +68787,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68789,7 +68850,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68850,7 +68911,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68913,7 +68974,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -68975,7 +69036,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69038,7 +69099,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69102,7 +69163,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69164,7 +69225,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69227,7 +69288,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69291,7 +69352,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -69354,7 +69415,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 5157,
+      "stars": 5158,
       "pushedAt": "2026-11-25T15:53:07Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -71902,7 +71963,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -71966,7 +72027,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -72030,7 +72091,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -72096,7 +72157,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -72159,7 +72220,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -72223,7 +72284,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",
@@ -72286,7 +72347,7 @@
         "spdx": "MIT",
         "note": null
       },
-      "stars": 6303,
+      "stars": 6304,
       "pushedAt": "2026-11-24T23:58:06Z",
       "daysSincePush": 0,
       "freshness": "active",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T17:59:52Z",
-  "count": 77,
+  "generatedAt": "2026-11-25T18:05:57Z",
+  "count": 78,
   "repositories": [
     {
       "id": "Donchitos/Claude-Code-Game-Studios",
@@ -17,7 +17,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 40891,
+      "stars": 40892,
       "forks": 5372,
       "language": "Shell",
       "topics": [
@@ -621,7 +621,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 28628,
+      "stars": 28631,
       "forks": 3201,
       "language": "Python",
       "topics": [
@@ -845,7 +845,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 22554,
+      "stars": 22555,
       "forks": 1750,
       "language": "Python",
       "topics": [
@@ -900,7 +900,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 21035,
+      "stars": 21036,
       "forks": 2706,
       "language": "JavaScript",
       "topics": [
@@ -1372,7 +1372,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 12727,
+      "stars": 12728,
       "forks": 497,
       "language": "Markdown",
       "topics": [],
@@ -1726,7 +1726,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 10667,
+      "stars": 10668,
       "forks": 403,
       "language": "Shell",
       "topics": [
@@ -1954,7 +1954,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 9591,
+      "stars": 9592,
       "forks": 2309,
       "language": "Python",
       "topics": [
@@ -1989,6 +1989,67 @@
       "packs": [],
       "score": 52.14,
       "install": "npx skills add Jakeschincariol/day-trader-skill",
+      "verifiedSkills": true,
+      "maxSkills": 0,
+      "picks": []
+    },
+    {
+      "id": "zenstory-ai/oh-story-claudecode",
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "owner": "zenstory-ai",
+      "name": "oh-story-claudecode",
+      "url": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "homepage": "https://zenstory.ai/zh/oh-story",
+      "description": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
+      "note": "Automatically discovered from GitHub search — not editorially reviewed. Verify the source before installing.",
+      "notePl": "Znalezione automatycznie w wyszukiwarce GitHub — bez ręcznej weryfikacji. Sprawdź źródło przed instalacją.",
+      "category": "writing",
+      "tags": [
+        "auto-discovered",
+        "community"
+      ],
+      "stars": 8933,
+      "forks": 1256,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-novel-writing",
+        "ai-writing",
+        "antigravity",
+        "chinese-novel",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "creative-writing",
+        "fiction-writing"
+      ],
+      "branch": "main",
+      "pushedAt": "2026-11-24T18:02:48Z",
+      "daysSincePush": 1,
+      "freshness": "active",
+      "archived": false,
+      "license": {
+        "spdx": "MIT",
+        "status": "clear",
+        "label": "MIT",
+        "note": null,
+        "files": [
+          "LICENSE"
+        ]
+      },
+      "skillCount": 14,
+      "sourceType": "collection",
+      "skillFileCount": 14,
+      "truncatedTree": false,
+      "official": false,
+      "featured": false,
+      "tier": "discovered",
+      "reviewed": false,
+      "packs": [],
+      "score": 52.21,
+      "install": "npx skills add zenstory-ai/oh-story-claudecode",
       "verifiedSkills": true,
       "maxSkills": 0,
       "picks": []
@@ -2056,7 +2117,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 8293,
+      "stars": 8298,
       "forks": 1441,
       "language": "JavaScript",
       "topics": [
@@ -2350,7 +2411,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 7747,
+      "stars": 7748,
       "forks": 604,
       "language": "HTML",
       "topics": [
@@ -2990,7 +3051,7 @@
         "auto-discovered",
         "community"
       ],
-      "stars": 5010,
+      "stars": 5011,
       "forks": 843,
       "language": "Python",
       "topics": [
