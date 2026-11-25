@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0d17">
+  <meta name="description" content="Otwarty, generowany z GitHub API katalog najlepszych open-source'owych skilli agentowych SKILL.md. Wyszukuj, filtruj i instaluj skille do Claude Code, Codex, Cursor i innych agentów AI.">
+  <meta property="og:title" content="Skills Library — najlepsze open-source skille dla agentów AI">
+  <meta property="og:description" content="Zweryfikowany katalog skilli SKILL.md z GitHuba: wyszukiwanie, licencje, pakiety startowe i komendy instalacji.">
+  <meta property="og:type" content="website">
+  <title>Skills Library — katalog najlepszych skilli dla agentów AI</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span class="orb orb-a"></span><span class="orb orb-b"></span><span class="grid"></span></div>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Skills Library">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" role="img"><path d="M8 12h24M8 20h17M8 28h11" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><circle cx="29" cy="28" r="3.6" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-text"><strong>skills<span>.library</span></strong><small data-i18n="brandTag">open-source index for AI agents</small></span>
+    </a>
+    <nav class="top-actions" aria-label="Quick links">
+      <a class="ghost-link" href="https://github.com/rejson59/skills-library" target="_blank" rel="noopener noreferrer" data-i18n="github">GitHub ↗</a>
+      <a class="ghost-link" href="data/catalog.json" target="_blank" rel="noopener noreferrer" data-i18n="json">JSON API ↗</a>
+      <button id="langBtn" class="icon-btn text-btn" type="button" aria-label="Switch language">EN</button>
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme" data-i18n-aria="toggleTheme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span><span data-i18n="heroBadge">Generowane z GitHub API</span><span class="dot">·</span><span id="heroDate">—</span></div>
+        <h1><span data-i18n="heroTitle1">Najlepsze skille</span> <span class="grad" data-i18n="heroTitleAccent">dla agentów AI</span><br><span data-i18n="heroTitle2">w jednym, zweryfikowanym miejscu.</span></h1>
+        <p class="lede" data-i18n="heroSubtitle">Przeszukujemy GitHub, sprawdzamy prawdziwe pliki SKILL.md, licencje i świeżość repozytoriów — a potem dajemy Ci gotową komendę instalacji do Claude Code, Codex, Cursor, Gemini CLI i innych agentów.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#workspace" data-i18n="ctaBrowse">Przeglądaj skille →</a>
+          <a class="btn" href="#guidePanel" id="installLink" data-i18n="ctaInstall">Jak instalować</a>
+        </div>
+        <div class="trust-row" aria-label="Trust notes">
+          <span><span class="check">✓</span> <span data-i18n="trust1">Tylko metadane, linki do źródeł</span></span>
+          <span><span class="check">✓</span> <span data-i18n="trust2">Zero telemetrii, zero zależności</span></span>
+          <span><span class="check">✓</span> <span data-i18n="trust3">Licencje i ryzyka widoczne</span></span>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="stats-card">
+          <div class="stats-grid">
+            <div class="stat"><span class="stat-num" id="statRepos">—</span><span class="stat-label" data-i18n="statRepos">repozytoriów</span></div>
+            <div class="stat"><span class="stat-num" id="statFiles">—</span><span class="stat-label" data-i18n="statFiles">plików SKILL.md</span></div>
+            <div class="stat"><span class="stat-num" id="statCollections">—</span><span class="stat-label" data-i18n="statCollections">kolekcji</span></div>
+            <div class="stat"><span class="stat-num" id="statSkills">—</span><span class="stat-label" data-i18n="statSkills">zaindeksowanych skilli</span></div>
+          </div>
+          <div class="stats-foot"><span class="mini-dot"></span><span data-i18n="statsFoot">Dane odświeżane co tydzień przez GitHub Actions</span></div>
+        </div>
+        <div class="terminal-card" aria-hidden="true">
+          <div class="terminal-bar"><span></span><span></span><span></span><em>terminal</em></div>
+          <pre><code><span class="muted">$</span> npx skills add anthropics/skills --skill pdf
+<span class="ok">✓</span> found 20 skills in anthropics/skills
+<span class="ok">✓</span> linked pdf → .agents/skills/pdf
+<span class="ok">✓</span> linked pdf → .claude/skills/pdf
+<span class="muted">$</span> <span class="cursor">▍</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-wrap" aria-label="Search">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="searchInput" type="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="searchPlaceholder" placeholder="Szukaj: pdf, react, security audit, TDD…" aria-label="Search skills">
+        <kbd>/</kbd>
+        <button id="clearSearch" class="clear-btn" type="button" hidden aria-label="Clear search">×</button>
+      </div>
+      <div class="search-hint" data-i18n="searchHint">Szukamy po nazwie, opisie, repozytorium i tagach. Wpisz np. „code review" albo „pdf".</div>
+    </section>
+
+    <section id="workspace" class="workspace">
+      <div class="view-tabs" role="tablist" aria-label="Catalog views">
+        <button class="tab active" data-view="skills" role="tab" aria-selected="true"><span data-i18n="viewSkills">Skille</span><span class="tab-count" id="countSkills"></span></button>
+        <button class="tab" data-view="collections" role="tab" aria-selected="false"><span data-i18n="viewCollections">Kolekcje</span><span class="tab-count" id="countCollections"></span></button>
+        <button class="tab" data-view="packs" role="tab" aria-selected="false"><span data-i18n="viewPacks">Pakiety startowe</span><span class="tab-count" id="countPacks"></span></button>
+        <button class="tab" data-view="guide" role="tab" aria-selected="false"><span data-i18n="viewGuide">Jak używać</span></button>
+      </div>
+
+      <div id="toolbar" class="toolbar">
+        <div class="toolbar-row">
+          <div id="categoryChips" class="chips" role="group" aria-label="Categories"></div>
+          <div class="toolbar-controls">
+            <label class="select-wrap"><span class="sr-only" data-i18n="sortLabel">Sortuj</span>
+              <select id="sortSelect" aria-label="Sort">
+                <option value="relevance" data-i18n="sortRelevance">Trafność</option>
+                <option value="stars" data-i18n="sortStars">Gwiazdki</option>
+                <option value="freshness" data-i18n="sortFresh">Aktualność</option>
+                <option value="skillCount" data-i18n="sortSkills">Liczba skilli</option>
+                <option value="name" data-i18n="sortName">Nazwa A–Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="toolbar-row toggles">
+          <button class="toggle" data-toggle="official" aria-pressed="false"><span>🏛️</span> <span data-i18n="toggleOfficial">Tylko oficjalne</span></button>
+          <button class="toggle" data-toggle="clearLicense" aria-pressed="false"><span>⚖️</span> <span data-i18n="toggleClear">Jasna licencja</span></button>
+          <button class="toggle active" data-toggle="curatedOnly" aria-pressed="true"><span>✦</span> <span data-i18n="toggleCurated">Tylko kuratowane</span></button>
+          <button class="toggle" data-toggle="hideReview" aria-pressed="false"><span>🛡️</span> <span data-i18n="toggleHideReview">Ukryj wymagające przeglądu</span></button>
+          <button class="toggle" data-toggle="savedOnly" aria-pressed="false"><span>★</span> <span data-i18n="toggleSaved">Zapisane</span><span class="saved-count" id="savedCount"></span></button>
+        </div>
+        <div id="activeFilters" class="active-filters" hidden></div>
+      </div>
+
+      <div id="resultsArea">
+        <div class="results-head"><div id="resultMeta" aria-live="polite"></div><div class="results-actions"><button id="resetBtn" class="text-link" type="button" data-i18n="reset">Wyczyść filtry</button></div></div>
+        <div id="cards" class="cards"></div>
+        <div id="empty" class="empty" hidden>
+          <div class="empty-illustration">⌕</div>
+          <h3 data-i18n="noResults">Nic nie znaleziono</h3>
+          <p data-i18n="noResultsHint">Spróbuj innego zapytania, wyłącz filtry albo przejrzyj kolekcje.</p>
+          <button class="btn" id="emptyReset" type="button" data-i18n="reset">Wyczyść filtry</button>
+        </div>
+      </div>
+
+      <section id="guidePanel" class="guide" hidden>
+        <div class="guide-hero">
+          <div class="section-kicker" data-i18n="guideKicker">PRZEWODNIK</div>
+          <h2 data-i18n="guideTitle">Od katalogu do działającego agenta w 3 krokach</h2>
+          <p data-i18n="guideIntro">Skill to folder z plikiem SKILL.md. Ten sam format czytają Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot i dziesiątki innych agentów. Różnią się tylko foldery, w których go szukają.</p>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card">
+            <span class="step-num">01</span>
+            <h3 data-i18n="step1Title">Wybierz i sprawdź źródło</h3>
+            <p data-i18n="step1Body">Otwórz kartę skilla, kliknij „Źródło" i przeczytaj cały SKILL.md. Zwróć uwagę na dołączone skrypty, allowed-tools i licencję upstream. Nasze znaczniki to wskazówki, nie certyfikat bezpieczeństwa.</p>
+            <a class="text-link" href="SECURITY.md" target="_blank" rel="noopener noreferrer" data-i18n="readSecurity">Model zaufania →</a>
+          </article>
+          <article class="guide-card">
+            <span class="step-num">02</span>
+            <h3 data-i18n="step2Title">Zainstaluj jedną komendą</h3>
+            <p data-i18n="step2Body">Najpewniejsza forma wskazuje bezpośrednio na folder skilla — działa też w repozytoriach z zagnieżdżonymi pluginami. Wymaga Node.js 22.20+.</p>
+            <div class="code-block"><button class="copy-mini" data-copy-target="guideDirectCmd" type="button" data-i18n="copy">Kopiuj</button><pre><code id="guideDirectCmd">npx skills add https://github.com/anthropics/skills/tree/main/skills/pdf</code></pre></div>
+            <div class="code-block"><button class="copy-mini" data-copy-target="guideGlobalCmd" type="button" data-i18n="copy">Kopiuj</button><pre><code id="guideGlobalCmd">npx skills add anthropics/skills --skill pdf -g -y</code></pre></div>
+          </article>
+          <article class="guide-card">
+            <span class="step-num">03</span>
+            <h3 data-i18n="step3Title">Bez Node.js: ręcznie</h3>
+            <p data-i18n="step3Body">Sklonuj repozytorium i skopiuj folder skilla do katalogu agenta. Nazwa folderu musi zgadzać się z polem name w frontmatterze. Potem uruchom nową sesję agenta.</p>
+            <div class="code-block"><button class="copy-mini" data-copy-target="guideManualCmd" type="button" data-i18n="copy">Kopiuj</button><pre><code id="guideManualCmd">git clone --depth 1 https://github.com/anthropics/skills.git /tmp/skills
+cp -r /tmp/skills/skills/pdf .agents/skills/pdf</code></pre></div>
+          </article>
+        </div>
+
+        <div class="guide-split">
+          <article class="panel">
+            <h3 data-i18n="compatTitle">Gdzie agent szuka skilli</h3>
+            <p class="muted-text" data-i18n="compatBody">CLI wykrywa zainstalowane agenty. Jeśli pracujesz w zespole na różnych narzędziach, wybierz wspólny katalog .agents/skills/.</p>
+            <div class="table-scroll"><table class="compat-table"><thead><tr><th data-i18n="colAgent">Agent</th><th data-i18n="colProject">Projekt</th><th data-i18n="colGlobal">Globalnie</th></tr></thead><tbody id="agentRows"></tbody></table></div>
+            <a class="text-link" href="https://github.com/vercel-labs/skills/blob/main/docs/agents.md" target="_blank" rel="noopener noreferrer" data-i18n="fullMatrix">Pełna macierz 75+ agentów →</a>
+          </article>
+          <article class="panel">
+            <h3 data-i18n="apiTitle">Dane dla Twojego agenta</h3>
+            <p class="muted-text" data-i18n="apiBody">Katalog jest zwykłym plikiem JSON. Możesz go wczytać w skrypcie, w AGENTS.md albo zainstalować nasz skill-finder, żeby agent sam proponował skille.</p>
+            <div class="code-block"><button class="copy-mini" data-copy-target="guideApiCmd" type="button" data-i18n="copy">Kopiuj</button><pre><code id="guideApiCmd">python3 scripts/query_catalog.py search "security audit" --limit 5
+python3 scripts/query_catalog.py install anthropics/skills/pdf</code></pre></div>
+            <div class="api-links">
+              <a href="data/catalog.json" target="_blank" rel="noopener noreferrer">catalog.json ↗</a>
+              <a href="llms.txt" target="_blank" rel="noopener noreferrer">llms.txt ↗</a>
+              <a href="docs/API.md" target="_blank" rel="noopener noreferrer" data-i18n="apiDocs">Dokumentacja API ↗</a>
+              <a href="skills/skill-finder/SKILL.md" target="_blank" rel="noopener noreferrer">skill-finder ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="method-strip">
+          <div><span class="method-icon">🔎</span><div><strong data-i18n="methodTitle">Skąd te dane?</strong><p data-i18n="methodBody">GitHub Search API → metadane repozytoriów → rekursywne drzewa git → prawdziwy frontmatter SKILL.md. Gwiazdki, licencje i daty nie są wpisywane ręcznie.</p></div></div>
+          <a class="btn" href="docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer" data-i18n="methodLink">Metodyka →</a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>skills<span>.library</span></strong><p data-i18n="footerText">Otwarty katalog metadanych. Skille pozostają własnością swoich autorów i na swoich licencjach.</p></div>
+    <div class="footer-links">
+      <a href="CATALOG.md" target="_blank" rel="noopener noreferrer">CATALOG.md</a>
+      <a href="CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" data-i18n="contribute">Dodaj źródło</a>
+      <a href="SECURITY.md" target="_blank" rel="noopener noreferrer" data-i18n="security">Bezpieczeństwo</a>
+      <a href="https://github.com/rejson59/skills-library" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+    <div class="footer-meta"><span>MIT</span><span>·</span><span id="footerDate">—</span><span>·</span><span data-i18n="noTelemetry">bez telemetrii</span></div>
+  </footer>
+
+  <div id="overlay" class="overlay" hidden></div>
+  <aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <div class="drawer-head">
+      <div><div class="drawer-kicker" id="drawerKicker">SKILL</div><h2 id="drawerTitle">—</h2></div>
+      <button id="drawerClose" class="icon-btn" type="button" aria-label="Close">×</button>
+    </div>
+    <div id="drawerBody" class="drawer-body"></div>
+  </aside>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript><div class="noscript" data-i18n="noscript">Ta strona potrzebuje JavaScriptu do wyszukiwania. Pełna lista jest dostępna w CATALOG.md i data/catalog.json.</div></noscript>
+
+  <script src="data/catalog.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3339 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "engineering",
+      "en": "Engineering",
+      "pl": "Inżynieria",
+      "icon": "🛠️"
+    },
+    {
+      "id": "workflow",
+      "en": "Agent workflows",
+      "pl": "Praca agenta",
+      "icon": "🧭"
+    },
+    {
+      "id": "design",
+      "en": "Design & UI",
+      "pl": "Design i UI",
+      "icon": "🎨"
+    },
+    {
+      "id": "documents",
+      "en": "Documents & office",
+      "pl": "Dokumenty i biuro",
+      "icon": "📄"
+    },
+    {
+      "id": "security",
+      "en": "Security",
+      "pl": "Bezpieczeństwo",
+      "icon": "🛡️"
+    },
+    {
+      "id": "data",
+      "en": "Data & science",
+      "pl": "Dane i nauka",
+      "icon": "🔬"
+    },
+    {
+      "id": "devops",
+      "en": "Cloud & DevOps",
+      "pl": "Cloud i DevOps",
+      "icon": "☁️"
+    },
+    {
+      "id": "business",
+      "en": "Business & marketing",
+      "pl": "Biznes i marketing",
+      "icon": "📈"
+    },
+    {
+      "id": "writing",
+      "en": "Writing & communication",
+      "pl": "Pisanie i komunikacja",
+      "icon": "✍️"
+    },
+    {
+      "id": "meta",
+      "en": "Skill authoring",
+      "pl": "Tworzenie skilli",
+      "icon": "🧩"
+    },
+    {
+      "id": "learning",
+      "en": "Learning & reference",
+      "pl": "Nauka i reference",
+      "icon": "📚"
+    },
+    {
+      "id": "specialized",
+      "en": "Specialized",
+      "pl": "Specjalistyczne",
+      "icon": "🧠"
+    }
+  ],
+  "searchQueries": [
+    "agent skills in:name,description stars:>300",
+    "claude skills in:name,description stars:>300",
+    "topic:agent-skills stars:>100",
+    "topic:claude-skills stars:>100",
+    "topic:agent-skill stars:>50",
+    "topic:claude-code-skills stars:>50",
+    "topic:ai-skills stars:>100",
+    "\"SKILL.md\" in:readme stars:>100",
+    "awesome skills in:name,description stars:>100",
+    "skills in:name stars:>3000",
+    "codex skills in:name,description stars:>100",
+    "topic:codex-skills",
+    "topic:skills stars:>1000",
+    "agent skill in:description stars:>500",
+    "topic:anthropic-skills"
+  ],
+  "excludeFromDiscovery": [
+    "langgenius/dify",
+    "Snailclimb/JavaGuide",
+    "harry0703/MoneyPrinterTurbo",
+    "thedaviddias/Front-End-Checklist",
+    "prisma/orm",
+    "LibreChat-AI/LibreChat",
+    "reactive-resume/reactive-resume",
+    "CherryHQ/cherry-studio",
+    "lobehub/lobehub",
+    "nocobase/nocobase",
+    "kubesphere/kubesphere",
+    "eclipse-theia/theia",
+    "1c7/chinese-independent-developer",
+    "opendatalab/MinerU",
+    "agno-agi/agno",
+    "ZhuLinsen/daily_stock_analysis",
+    "nexu-io/open-design",
+    "paperclipai/paperclip",
+    "heygen-com/hyperframes",
+    "OpenMontageInc/OpenMontage",
+    "Shubhamsaboo/awesome-llm-apps",
+    "rohitg00/ai-engineering-from-scratch",
+    "HKUDS/CLI-Anything",
+    "HKUDS/DeepTutor",
+    "luongnv89/claude-howto",
+    "code-yeongyu/oh-my-openagent",
+    "mksglu/context-mode"
+  ],
+  "packs": [
+    {
+      "id": "starter",
+      "en": "The solid coding agent",
+      "pl": "Solidny agent kodujący",
+      "icon": "🛠️",
+      "desc_en": "A battle-tested baseline: methodology, review, guardrails, concise answers and a security audit.",
+      "desc_pl": "Sprawdzony fundament: metodyka, review, reguły zachowania, zwięzłe odpowiedzi i audyt bezpieczeństwa.",
+      "skills": [
+        [
+          "obra/superpowers",
+          "test-driven-development"
+        ],
+        [
+          "mattpocock/skills",
+          "code-review"
+        ],
+        [
+          "addyosmani/agent-skills",
+          "security-and-hardening"
+        ],
+        [
+          "multica-ai/andrej-karpathy-skills",
+          "karpathy-guidelines"
+        ],
+        [
+          "ayghri/i-have-adhd",
+          "i-have-adhd"
+        ],
+        [
+          "cloudflare/security-audit-skill",
+          "security-audit"
+        ]
+      ]
+    },
+    {
+      "id": "frontend",
+      "en": "Frontend without AI slop",
+      "pl": "Frontend bez AI slop",
+      "icon": "🎨",
+      "desc_en": "Art direction, React rules, web-design guidelines, animation craft and an anti-slop review pass.",
+      "desc_pl": "Kierunek artystyczny, zasady React, web design, animacje i kontrola anty-AI-slop.",
+      "skills": [
+        [
+          "anthropics/skills",
+          "frontend-design"
+        ],
+        [
+          "vercel-labs/agent-skills",
+          "react-best-practices"
+        ],
+        [
+          "vercel-labs/agent-skills",
+          "web-design-guidelines"
+        ],
+        [
+          "emilkowalski/skills",
+          "animate"
+        ],
+        [
+          "Nutlope/hallmark",
+          "hallmark"
+        ],
+        [
+          "Leonxlnx/taste-skill",
+          "taste-skill"
+        ]
+      ]
+    },
+    {
+      "id": "documents",
+      "en": "Documents & office",
+      "pl": "Dokumenty i biuro",
+      "icon": "📄",
+      "desc_en": "Real PDF, Word, PowerPoint and Excel files, plus Obsidian and Google Workspace workflows.",
+      "desc_pl": "Prawdziwe pliki PDF, Word, PowerPoint i Excel oraz workflowy Obsidian i Google Workspace.",
+      "skills": [
+        [
+          "anthropics/skills",
+          "pdf"
+        ],
+        [
+          "anthropics/skills",
+          "docx"
+        ],
+        [
+          "anthropics/skills",
+          "pptx"
+        ],
+        [
+          "anthropics/skills",
+          "xlsx"
+        ],
+        [
+          "obsidianmd/obsidian-skills",
+          "obsidian-markdown"
+        ],
+        [
+          "googleworkspace/cli",
+          "gws-gmail-triage"
+        ]
+      ]
+    },
+    {
+      "id": "security",
+      "en": "Security review",
+      "pl": "Audyt bezpieczeństwa",
+      "icon": "🛡️",
+      "desc_en": "Independent audit workflows, smart-contract checks and verified findings.",
+      "desc_pl": "Niezależne workflowy audytu, kontrola smart kontraktów i weryfikowalne wyniki.",
+      "skills": [
+        [
+          "cloudflare/security-audit-skill",
+          "security-audit"
+        ],
+        [
+          "trailofbits/skills",
+          "audit-context-building"
+        ],
+        [
+          "OpenZeppelin/openzeppelin-skills",
+          "develop-secure-contracts"
+        ],
+        [
+          "openai/skills",
+          "security-threat-model"
+        ],
+        [
+          "NVIDIA/SkillSpector",
+          "skill-inspector"
+        ]
+      ]
+    },
+    {
+      "id": "data",
+      "en": "Data & research",
+      "pl": "Dane i research",
+      "icon": "🔬",
+      "desc_en": "Scientific databases, DuckDB queries, web research and deep-research reports.",
+      "desc_pl": "Bazy naukowe, zapytania DuckDB, research w sieci i raporty deep research.",
+      "skills": [
+        [
+          "K-Dense-AI/scientific-agent-skills",
+          "paper-lookup"
+        ],
+        [
+          "duckdb/duckdb-skills",
+          "query"
+        ],
+        [
+          "firecrawl/skills",
+          "firecrawl-search"
+        ],
+        [
+          "Weizhena/Deep-Research-skills",
+          "research-deep"
+        ],
+        [
+          "huggingface/skills",
+          "huggingface-datasets"
+        ]
+      ]
+    },
+    {
+      "id": "business",
+      "en": "Product & growth",
+      "pl": "Produkt i growth",
+      "icon": "📈",
+      "desc_en": "PRDs, OKRs, CRO, SEO, copywriting and founder playbooks.",
+      "desc_pl": "PRD, OKR, CRO, SEO, copywriting i playbooki dla founderów.",
+      "skills": [
+        [
+          "phuryn/pm-skills",
+          "create-prd"
+        ],
+        [
+          "coreyhaines31/marketingskills",
+          "cro"
+        ],
+        [
+          "slavingia/skills",
+          "mvp"
+        ],
+        [
+          "ognjengt/founder-skills",
+          "go-to-market-plan"
+        ],
+        [
+          "blader/humanizer",
+          "humanizer"
+        ]
+      ]
+    },
+    {
+      "id": "official",
+      "en": "Official vendor sets",
+      "pl": "Oficjalne zestawy dostawców",
+      "icon": "🏛️",
+      "desc_en": "Start with vendor-maintained repositories — the most stable and best documented sources.",
+      "desc_pl": "Zacznij od repozytoriów utrzymywanych przez dostawców — najstabilniejsze i najlepiej udokumentowane.",
+      "skills": [
+        [
+          "anthropics/skills",
+          "skill-creator"
+        ],
+        [
+          "openai/skills",
+          "skill-creator"
+        ],
+        [
+          "vercel-labs/skills",
+          "find-skills"
+        ],
+        [
+          "google/skills",
+          "finding-google-skills"
+        ],
+        [
+          "github/awesome-copilot",
+          "code-review"
+        ],
+        [
+          "googleworkspace/cli",
+          "gws-shared"
+        ]
+      ]
+    }
+  ],
+  "spotlight": [
+    {
+      "repo": "anthropics/skills",
+      "folder": "pdf"
+    },
+    {
+      "repo": "anthropics/skills",
+      "folder": "frontend-design"
+    },
+    {
+      "repo": "anthropics/skills",
+      "folder": "skill-creator"
+    },
+    {
+      "repo": "obra/superpowers",
+      "folder": "test-driven-development"
+    },
+    {
+      "repo": "obra/superpowers",
+      "folder": "systematic-debugging"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "folder": "diagnosing-bugs"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "folder": "code-review-and-quality"
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "folder": "react-best-practices"
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "folder": "animate"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "folder": "security-audit"
+    },
+    {
+      "repo": "trailofbits/skills",
+      "folder": "audit-context-building"
+    },
+    {
+      "repo": "duckdb/duckdb-skills",
+      "folder": "query"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "folder": "paper-lookup"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "folder": "cro"
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "folder": "create-prd"
+    },
+    {
+      "repo": "blader/humanizer",
+      "folder": "humanizer"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "folder": "hallmark"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "folder": "find-skills"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "folder": "i-have-adhd"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "folder": "karpathy-guidelines"
+    }
+  ],
+  "sources": [
+    {
+      "repo": "anthropics/skills",
+      "category": "documents",
+      "tags": [
+        "official",
+        "reference",
+        "documents",
+        "design",
+        "claude"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 20,
+      "picks": [],
+      "note": "The reference implementation of the Agent Skills format: documents, design, MCP and skill-creator.",
+      "note_pl": "Referencyjna implementacja formatu Agent Skills: dokumenty, design, MCP i skill-creator.",
+      "packs": [
+        "starter",
+        "documents",
+        "official"
+      ],
+      "license_note": "No repo-level LICENSE detected; individual skills ship their own LICENSE.txt."
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "category": "workflow",
+      "tags": [
+        "official",
+        "plugins",
+        "claude"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 12,
+      "picks": [
+        "skill-creator",
+        "skill-development",
+        "frontend-design",
+        "claude-security",
+        "threat-model",
+        "ci-review",
+        "attack-surface-analysis",
+        "writing-rules",
+        "plugin-structure",
+        "agent-development"
+      ],
+      "note": "Anthropic-managed plugin marketplace; install through /plugin marketplace add, not a plain skills repo.",
+      "note_pl": "Oficjalny katalog pluginów Anthropic; instalacja przez /plugin marketplace add.",
+      "packs": [
+        "official"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "mattpocock/skills",
+      "category": "engineering",
+      "tags": [
+        "expert",
+        "engineering",
+        "tdd",
+        "review",
+        "spec"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 20,
+      "picks": [
+        "code-review",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "implement-spec",
+        "tdd",
+        "triage",
+        "to-spec",
+        "grill-with-docs",
+        "codebase-design",
+        "retro",
+        "research",
+        "pr",
+        "wayfinder",
+        "setup-matt-pocock-skills"
+      ],
+      "note": "Small, composable engineering workflows straight from Matt Pocock's own .agents directory.",
+      "note_pl": "Małe, składalne workflowy inżynierskie prosto z katalogu .agents Matta Pococka.",
+      "packs": [
+        "starter",
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "obra/superpowers",
+      "category": "engineering",
+      "tags": [
+        "expert",
+        "tdd",
+        "debugging",
+        "planning",
+        "workflow"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "test-driven-development",
+        "systematic-debugging",
+        "verification-before-completion",
+        "requesting-code-review",
+        "receiving-code-review",
+        "dispatching-parallel-agents",
+        "subagent-driven-development",
+        "using-git-worktrees",
+        "finishing-a-development-branch",
+        "writing-skills",
+        "using-superpowers"
+      ],
+      "note": "A complete, opinionated software-development methodology: brainstorming, TDD, debugging, plans and review.",
+      "note_pl": "Kompletna metodyka pracy: brainstorming, TDD, debugowanie, plany i review.",
+      "packs": [
+        "starter",
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "category": "engineering",
+      "tags": [
+        "expert",
+        "production",
+        "review",
+        "security",
+        "frontend"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 20,
+      "picks": [
+        "code-review-and-quality",
+        "test-driven-development",
+        "security-and-hardening",
+        "frontend-ui-engineering",
+        "performance-optimization",
+        "ci-cd-and-automation",
+        "code-simplification",
+        "debugging-and-error-recovery",
+        "planning-and-task-breakdown",
+        "accessibility-engineering",
+        "spec-driven-development",
+        "shipping-and-launch",
+        "using-agent-skills"
+      ],
+      "note": "Production-grade engineering checklists from Addy Osmani: review, testing, security, CI/CD and launch.",
+      "note_pl": "Produkcyjne checklisty inżynierskie Addy'ego Osmaniego: review, testy, security, CI/CD i release.",
+      "packs": [
+        "starter",
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "category": "workflow",
+      "tags": [
+        "mega",
+        "harness",
+        "memory",
+        "security",
+        "research"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "api-design",
+        "backend-patterns",
+        "frontend-patterns",
+        "coding-standards",
+        "security-review",
+        "tdd-workflow",
+        "continuous-learning",
+        "strategic-compact",
+        "verification-loop",
+        "agent-introspection-debugging",
+        "article-writing",
+        "benchmark-methodology"
+      ],
+      "note": "A very large harness-optimization system: skills, instincts, memory and research-first development.",
+      "note_pl": "Bardzo duży system optymalizacji agenta: skille, instynkty, pamięć i research-first development.",
+      "packs": [
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "category": "engineering",
+      "tags": [
+        "guardrails",
+        "karpathy",
+        "minimal"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "One short set of behavioral guardrails derived from Andrej Karpathy's observations about coding agents.",
+      "note_pl": "Krótki zestaw reguł zachowania agenta na podstawie obserwacji Andreja Karpathy'ego.",
+      "packs": [
+        "starter"
+      ],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "category": "engineering",
+      "tags": [
+        "minimalism",
+        "review",
+        "audit"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 8,
+      "picks": [
+        "ponytail",
+        "ponytail-review",
+        "ponytail-audit",
+        "ponytail-debt"
+      ],
+      "note": "A prompt and review commands that push the agent toward the smallest correct change.",
+      "note_pl": "Prompt i komendy review, które pchają agenta w stronę najmniejszej poprawnej zmiany.",
+      "packs": [
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "category": "workflow",
+      "tags": [
+        "tokens",
+        "compression",
+        "concise"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 8,
+      "picks": [
+        "caveman",
+        "caveman-compress",
+        "caveman-commit",
+        "caveman-stats",
+        "cavecrew"
+      ],
+      "note": "Token compression and concise output for coding agents, with reversible originals.",
+      "note_pl": "Kompresja tokenów i zwięzłe odpowiedzi agenta z możliwością odtworzenia oryginału.",
+      "packs": [
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "category": "writing",
+      "tags": [
+        "concise",
+        "output",
+        "adhd"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Makes agent replies lead with the next action and drop preamble and recaps.",
+      "note_pl": "Wymusza odpowiedzi zaczynające się od następnej akcji, bez wstępów i podsumowań.",
+      "packs": [
+        "starter"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "tw93/Waza",
+      "category": "engineering",
+      "tags": [
+        "habits",
+        "engineering",
+        "craft"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Engineering habits you already know, turned into skills agents actually follow.",
+      "note_pl": "Dobre nawyki inżynierskie zamienione na skille, których agent faktycznie słucha.",
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "ciembor/agent-rules-books",
+      "category": "learning",
+      "tags": [
+        "books",
+        "architecture",
+        "ddd",
+        "clean-code"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "clean-code",
+        "clean-architecture",
+        "domain-driven-design",
+        "designing-data-intensive-applications",
+        "a-philosophy-of-software-design",
+        "code-complete",
+        "implementing-domain-driven-design"
+      ],
+      "note": "Software-engineering books distilled into Agent Skills / AGENTS.md rules.",
+      "note_pl": "Klasyczne książki o inżynierii oprogramowania zamienione na reguły dla agentów.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "backnotprop/pstack",
+      "category": "engineering",
+      "tags": [
+        "rigor",
+        "planning",
+        "review",
+        "principles"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [
+        "architect",
+        "blast-radius",
+        "benchmark-checklist",
+        "reproduce-and-fix-issues",
+        "triage-issue-reports",
+        "arena",
+        "automate-me"
+      ],
+      "note": "Principles and workflows for rigorous, evidence-led engineering with coding agents.",
+      "note_pl": "Zasady i workflowy do rygorystycznej, opartej na dowodach pracy z agentem.",
+      "packs": [
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "rohitg00/pro-workflow",
+      "category": "workflow",
+      "tags": [
+        "memory",
+        "context",
+        "orchestration"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [
+        "agent-teams",
+        "context-engineering",
+        "cost-tracker",
+        "batch-orchestration",
+        "compact-guard",
+        "learn-rule"
+      ],
+      "note": null,
+      "note_pl": null,
+      "packs": [
+        "workflow"
+      ],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "OthmanAdi/planning-with-files",
+      "category": "workflow",
+      "tags": [
+        "planning",
+        "files",
+        "persistence"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Persistent file-based planning so long agent tasks survive context resets.",
+      "note_pl": "Planowanie oparte na plikach, dzięki którym długie zadania przetrwają reset kontekstu.",
+      "packs": [
+        "workflow"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "category": "learning",
+      "tags": [
+        "best-practices",
+        "claude-code",
+        "guide"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "category": "meta",
+      "tags": [
+        "context",
+        "engineering",
+        "reference"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "A comprehensive, theory-backed collection about context engineering for agents.",
+      "note_pl": "Obszerny, teoretycznie uzasadniony zbiór o context engineering dla agentów.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "mgechev/skills-best-practices",
+      "category": "meta",
+      "tags": [
+        "best-practices",
+        "authoring",
+        "validation"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "How to write professional-grade skills: structure, frontmatter, progressive disclosure and validation.",
+      "note_pl": "Jak pisać dobre skille: struktura, frontmatter, progresywne ujawnianie i walidacja.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "rebelytics/one-skill-to-rule-them-all",
+      "category": "meta",
+      "tags": [
+        "meta",
+        "improve",
+        "evaluation"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "A meta-skill that evaluates and improves other skills, including itself.",
+      "note_pl": "Meta-skill, który ocenia i ulepsza inne skille — łącznie ze sobą.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "yusufkaraaslan/Skill_Seekers",
+      "category": "meta",
+      "tags": [
+        "generator",
+        "docs",
+        "converter"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Converts documentation and codebases into Agent Skills.",
+      "note_pl": "Zamienia dokumentację i repozytoria w skille dla agentów.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "category": "meta",
+      "tags": [
+        "generator",
+        "books",
+        "converter"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Turns a book into a reusable agent skill.",
+      "note_pl": "Zamienia książkę w gotowy skill agenta.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "alchaincyf/nuwa-skill",
+      "category": "meta",
+      "tags": [
+        "generator",
+        "perspective",
+        "meta"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 6,
+      "picks": [],
+      "note": "Generates runnable, verifiable skills from chaotic requirements.",
+      "note_pl": "Generuje uruchamialne i weryfikowalne skille z chaotycznych wymagań.",
+      "packs": [
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "openai/skills",
+      "category": "documents",
+      "tags": [
+        "official",
+        "codex",
+        "figma",
+        "deploy"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 18,
+      "picks": [
+        "pdf",
+        "figma",
+        "figma-implement-design",
+        "openai-docs",
+        "playwright",
+        "security-best-practices",
+        "security-threat-model",
+        "skill-creator",
+        "skill-installer",
+        "notion-spec-to-implementation",
+        "vercel-deploy",
+        "cloudflare-deploy",
+        "screenshot",
+        "speech",
+        "jupyter-notebook",
+        "define-goal"
+      ],
+      "note": "OpenAI's curated Codex skills: Figma, deployments, docs, notebooks, security and skill tooling.",
+      "note_pl": "Oficjalne skille Codex od OpenAI: Figma, deploymenty, docs, notebooki, security i narzędzia do skilli.",
+      "packs": [
+        "official",
+        "documents"
+      ],
+      "license_note": "No repo-level LICENSE; individual skills ship LICENSE.txt files."
+    },
+    {
+      "repo": "google/skills",
+      "category": "devops",
+      "tags": [
+        "official",
+        "google-cloud",
+        "bigquery",
+        "gcp"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 18,
+      "picks": [
+        "finding-google-skills",
+        "gcloud",
+        "bigquery-basics",
+        "bigquery-optimization",
+        "retrieving-developer-knowledge",
+        "agent-platform-architecture",
+        "agent-platform-deploy",
+        "agent-platform-skill-registry",
+        "api-gateway-openapi-spec-authoring",
+        "cloud-monitoring-alert-configuration",
+        "cloud-logging-query-generation",
+        "google-analytics-data-api-basics"
+      ],
+      "note": "Official Google Cloud skills: BigQuery, Agentspace, API Gateway, monitoring and more.",
+      "note_pl": "Oficjalne skille Google Cloud: BigQuery, Agentspace, API Gateway, monitoring i więcej.",
+      "packs": [
+        "official",
+        "devops"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "category": "documents",
+      "tags": [
+        "official",
+        "workspace",
+        "gmail",
+        "calendar",
+        "sheets"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 18,
+      "picks": [
+        "gws-gmail",
+        "gws-gmail-triage",
+        "gws-calendar",
+        "gws-calendar-agenda",
+        "gws-docs",
+        "gws-docs-write",
+        "gws-sheets",
+        "gws-drive",
+        "gws-slides",
+        "gws-workflow-meeting-prep",
+        "gws-workflow-weekly-digest",
+        "persona-exec-assistant"
+      ],
+      "note": "Official Google Workspace CLI skills for Gmail, Calendar, Drive, Docs, Sheets and workflows.",
+      "note_pl": "Oficjalne skille Google Workspace CLI: Gmail, Kalendarz, Drive, Docs, Sheets i workflowy.",
+      "packs": [
+        "official",
+        "documents"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "category": "learning",
+      "tags": [
+        "official",
+        "copilot",
+        "community",
+        "mega"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 18,
+      "picks": [
+        "code-review",
+        "agentic-workflows",
+        "acquire-codebase-knowledge",
+        "agent-skill-stack",
+        "agent-governance",
+        "agent-owasp-compliance",
+        "ai-prompt-engineering-safety-review",
+        "api-breaking-change-detector",
+        "architecture-blueprint-generator",
+        "azure-well-architected-review",
+        "create-architectural-decision-record",
+        "create-readme",
+        "anti-ui-slop",
+        "chrome-devtools",
+        "cli-mastery"
+      ],
+      "note": "GitHub-community catalog with hundreds of Copilot skills, agents and instructions.",
+      "note_pl": "Katalog społeczności GitHub z setkami skilli, agentów i instrukcji dla Copilota.",
+      "packs": [
+        "official",
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "category": "design",
+      "tags": [
+        "official",
+        "react",
+        "nextjs",
+        "vercel",
+        "frontend"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 12,
+      "picks": [
+        "react-best-practices",
+        "web-design-guidelines",
+        "composition-patterns",
+        "deploy-to-vercel",
+        "vercel-optimize",
+        "react-view-transitions",
+        "react-native-skills",
+        "writing-guidelines"
+      ],
+      "note": "Vercel engineering's React, Next.js, deployment and web-design rules.",
+      "note_pl": "Zasady React/Next.js, deploymentu i web designu od inżynierów Vercel.",
+      "packs": [
+        "official",
+        "frontend"
+      ],
+      "license_note": "No LICENSE file detected by the GitHub API or repository tree. Verify upstream terms before redistribution."
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "category": "meta",
+      "tags": [
+        "official",
+        "cli",
+        "registry",
+        "find-skills"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 4,
+      "picks": [
+        "find-skills",
+        "pr-labeling",
+        "triage"
+      ],
+      "note": "The `npx skills` CLI itself plus the find-skills discovery skill and automation examples.",
+      "note_pl": "Sam CLI `npx skills` oraz skill find-skills i przykłady automatyzacji.",
+      "packs": [
+        "official",
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "android/skills",
+      "category": "specialized",
+      "tags": [
+        "official",
+        "android",
+        "kotlin",
+        "compose"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "jetpack-compose-performance",
+        "migrate-xml-views-to-jetpack-compose",
+        "android-intent-security",
+        "android-permissions-security",
+        "anr-audit-and-fix",
+        "r8-analyzer",
+        "edge-to-edge",
+        "testing-setup"
+      ],
+      "note": "Official Android / Jetpack Compose skills from Google's Android team.",
+      "note_pl": "Oficjalne skille Android / Jetpack Compose od zespołu Androida.",
+      "packs": [
+        "official",
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "huggingface/skills",
+      "category": "data",
+      "tags": [
+        "official",
+        "huggingface",
+        "ml",
+        "datasets"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "hf-cli",
+        "huggingface-datasets",
+        "huggingface-papers",
+        "huggingface-llm-trainer",
+        "huggingface-community-evals",
+        "huggingface-spaces",
+        "huggingface-tool-builder",
+        "huggingface-gradio",
+        "transformers-js",
+        "trl-training"
+      ],
+      "note": "Official Hugging Face skills for datasets, models, Spaces, training and evaluation.",
+      "note_pl": "Oficjalne skille Hugging Face: datasety, modele, Spaces, trening i ewaluacja.",
+      "packs": [
+        "official",
+        "data"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "category": "design",
+      "tags": [
+        "official",
+        "stitch",
+        "design",
+        "react"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "generate-design",
+        "extract-design-md",
+        "design-md",
+        "taste-design",
+        "manage-design-system",
+        "react-components",
+        "shadcn-ui",
+        "code-to-design"
+      ],
+      "note": "Google Labs Stitch design-to-code skills and design-system workflows.",
+      "note_pl": "Skille Google Labs Stitch do design-to-code i pracy z design systemem.",
+      "packs": [
+        "official",
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "duckdb/duckdb-skills",
+      "category": "data",
+      "tags": [
+        "official",
+        "duckdb",
+        "sql",
+        "data"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 10,
+      "picks": [
+        "query",
+        "read-file",
+        "convert-file",
+        "attach-db",
+        "install-duckdb",
+        "duckdb-docs",
+        "s3-explore"
+      ],
+      "note": "Official DuckDB skills for querying, converting files and S3 exploration.",
+      "note_pl": "Oficjalne skille DuckDB do zapytań, konwersji plików i eksploracji S3.",
+      "packs": [
+        "official",
+        "data"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "obsidianmd/obsidian-skills",
+      "category": "documents",
+      "tags": [
+        "official",
+        "obsidian",
+        "markdown",
+        "notes"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 8,
+      "picks": [
+        "obsidian-markdown",
+        "obsidian-bases",
+        "json-canvas",
+        "obsidian-cli",
+        "defuddle",
+        "obsidian-headless"
+      ],
+      "note": "Official Obsidian skills for Markdown, Bases, JSON Canvas and the Obsidian CLI.",
+      "note_pl": "Oficjalne skille Obsidian: Markdown, Bases, JSON Canvas i Obsidian CLI.",
+      "packs": [
+        "official",
+        "documents"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "category": "security",
+      "tags": [
+        "official",
+        "cloudflare",
+        "audit",
+        "security"
+      ],
+      "official": true,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [
+        "security-audit"
+      ],
+      "note": "A multi-phase security audit skill with independently verified, machine-checkable findings.",
+      "note_pl": "Wieloetapowy audyt bezpieczeństwa z niezależnie weryfikowalnymi wynikami.",
+      "packs": [
+        "official",
+        "security"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "greensock/gsap-skills",
+      "category": "design",
+      "tags": [
+        "official",
+        "gsap",
+        "animation"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Official GSAP animation skills for core APIs, frameworks, React and performance.",
+      "note_pl": "Oficjalne skille animacji GSAP: core, frameworki, React i performance.",
+      "packs": [
+        "official",
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "microsoft/SkillOpt",
+      "category": "meta",
+      "tags": [
+        "official",
+        "optimizer",
+        "evaluation"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 4,
+      "picks": [],
+      "note": "Microsoft research tooling for optimizing and evaluating agent skills.",
+      "note_pl": "Narzędzia Microsoft Research do optymalizacji i ewaluacji skilli.",
+      "packs": [
+        "official",
+        "meta"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "category": "security",
+      "tags": [
+        "official",
+        "nvidia",
+        "audit",
+        "scanner"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "NVIDIA's skill-security inspector for third-party Agent Skills.",
+      "note_pl": "Inspektor bezpieczeństwa skilli od NVIDIA do skanowania zewnętrznych SKILL.md.",
+      "packs": [
+        "official",
+        "security"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "MiniMax-AI/skills",
+      "category": "specialized",
+      "tags": [
+        "official",
+        "minimax",
+        "multimodal"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "janestreet/agent_skills",
+      "category": "engineering",
+      "tags": [
+        "official",
+        "ocaml",
+        "jane-street"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Jane Street's agent skills for their own toolchain.",
+      "note_pl": "Skille agentowe Jane Street do ich własnego tooling'u.",
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "genspark-ai/genoffice",
+      "category": "documents",
+      "tags": [
+        "office",
+        "pptx",
+        "docx",
+        "xlsx"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Open-source office document generation skills.",
+      "note_pl": "Open-source skille do generowania dokumentów biurowych.",
+      "packs": [
+        "documents"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "category": "engineering",
+      "tags": [
+        "official",
+        "code-review",
+        "alibaba"
+      ],
+      "official": true,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 3,
+      "picks": [
+        "open-code-review"
+      ],
+      "note": "Alibaba's hybrid architecture code-review skill, battle-tested at scale.",
+      "note_pl": "Skill code-review od Alibaba, sprawdzony na ich skalę.",
+      "packs": [
+        "engineering"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "trailofbits/skills",
+      "category": "security",
+      "tags": [
+        "expert",
+        "audit",
+        "vulnerability",
+        "solidity"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "audit-context-building",
+        "audit-prep-assistant",
+        "secure-workflow-guide",
+        "differential-review",
+        "property-based-testing",
+        "constant-time-analysis",
+        "modern-cpp",
+        "modern-python",
+        "validate-bug",
+        "prove-patch",
+        "agentic-actions-auditor",
+        "burpsuite-project-parser",
+        "github-triage",
+        "gh-cli"
+      ],
+      "note": "Trail of Bits' professional security-research and audit workflows.",
+      "note_pl": "Profesjonalne workflowy audytu i researchu bezpieczeństwa od Trail of Bits.",
+      "packs": [
+        "security"
+      ],
+      "license_note": "CC-BY-SA-4.0 — share-alike applies to derivatives."
+    },
+    {
+      "repo": "OpenZeppelin/openzeppelin-skills",
+      "category": "security",
+      "tags": [
+        "expert",
+        "solidity",
+        "smart-contracts",
+        "web3"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [
+        "develop-secure-contracts",
+        "setup-solidity-contracts",
+        "setup-cairo-contracts",
+        "setup-stylus-contracts",
+        "setup-stellar-contracts",
+        "upgrade-solidity-contracts",
+        "review-sui-contracts"
+      ],
+      "note": "Secure smart-contract development and upgrade skills from OpenZeppelin.",
+      "note_pl": "Skille do bezpiecznego tworzenia i aktualizacji smart kontraktów od OpenZeppelin.",
+      "packs": [
+        "security"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "SnailSploit/Claude-Red",
+      "category": "security",
+      "tags": [
+        "offensive",
+        "pentest",
+        "red-team"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [
+        "offensive-api-security",
+        "offensive-jwt",
+        "offensive-oauth",
+        "offensive-ai-security",
+        "offensive-active-directory",
+        "offensive-cicd-pipeline"
+      ],
+      "note": "Offensive-security skills. Only use on systems you are authorized to test.",
+      "note_pl": "Skille ofensywne. Używaj wyłącznie na systemach, do których masz uprawnienia.",
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "yaklang/hack-skills",
+      "category": "security",
+      "tags": [
+        "pentest",
+        "ctf",
+        "offensive"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [
+        "api-auth-and-jwt-abuse",
+        "active-directory-kerberos-attacks",
+        "android-pentesting-tricks",
+        "ai-ml-security",
+        "anti-debugging-techniques",
+        "401-403-bypass-techniques"
+      ],
+      "note": "Practical offensive-security knowledge base for agents; authorized testing only.",
+      "note_pl": "Praktyczna baza wiedzy ofensywnej dla agentów; tylko autoryzowane testy.",
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "ljagiello/ctf-skills",
+      "category": "security",
+      "tags": [
+        "ctf",
+        "pwn",
+        "forensics"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "CTF-focused skills for pwn, crypto, forensics, OSINT and reversing.",
+      "note_pl": "Skille CTF: pwn, krypto, forensyka, OSINT i reverse engineering.",
+      "packs": [
+        "security"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "usestrix/strix",
+      "category": "security",
+      "tags": [
+        "pentest",
+        "automation",
+        "vulnerability"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Open-source AI penetration-testing tool with agent skills.",
+      "note_pl": "Open-source narzędzie do pentestów AI z zestawem skilli.",
+      "packs": [
+        "security"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "zhaoxuya520/reverse-skill",
+      "category": "security",
+      "tags": [
+        "reverse-engineering",
+        "pentest"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "browser-act/skills",
+      "category": "specialized",
+      "tags": [
+        "browser",
+        "automation",
+        "cli"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Browser automation CLI and skills built specifically for AI agents.",
+      "note_pl": "CLI i skille do automatyzacji przeglądarki zbudowane dla agentów AI.",
+      "packs": [
+        "automation"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "lackeyjb/playwright-skill",
+      "category": "specialized",
+      "tags": [
+        "playwright",
+        "browser",
+        "testing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "General-purpose Playwright automation for coding agents.",
+      "note_pl": "Uniwersalna automatyzacja Playwright dla agentów kodujących.",
+      "packs": [
+        "automation"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "conorluddy/ios-simulator-skill",
+      "category": "specialized",
+      "tags": [
+        "ios",
+        "mobile",
+        "testing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "iOS Simulator automation for coding agents.",
+      "note_pl": "Automatyzacja iOS Simulator dla agentów.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "design",
+      "tags": [
+        "ui",
+        "ux",
+        "design-system"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 10,
+      "picks": [
+        "ui-ux-pro-max",
+        "design",
+        "design-system",
+        "ui-styling",
+        "banner-design",
+        "slides"
+      ],
+      "note": "Design intelligence for professional UI/UX across many stacks.",
+      "note_pl": "Inteligencja designerska do profesjonalnego UI/UX na wielu stackach.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "category": "design",
+      "tags": [
+        "taste",
+        "frontend",
+        "art-direction"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [
+        "taste-skill"
+      ],
+      "note": "Gives coding agents art direction and a browser check instead of generic AI pages.",
+      "note_pl": "Daje agentowi kierunek artystyczny i kontrolę w przeglądarce zamiast generycznych stron.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "category": "design",
+      "tags": [
+        "design",
+        "polish",
+        "review"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 8,
+      "picks": [
+        "impeccable"
+      ],
+      "note": "A design vocabulary for your coding agent: polish, review and bolder UI decisions.",
+      "note_pl": "Słownik designerski dla agenta: dopracowanie, review i odważniejsze decyzje UI.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "category": "design",
+      "tags": [
+        "expert",
+        "animation",
+        "ui",
+        "design"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "animate",
+        "animate-expo",
+        "animation-performance",
+        "animation-vocabulary",
+        "apple-design",
+        "ask-emil",
+        "ask-sonner",
+        "break-ui"
+      ],
+      "note": "Emil Kowalski's design and animation skills for designers and engineers.",
+      "note_pl": "Skille designu i animacji Emila Kowalskiego dla designerów i inżynierów.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "category": "design",
+      "tags": [
+        "anti-slop",
+        "design",
+        "review"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [
+        "hallmark"
+      ],
+      "note": "Anti-AI-slop design review skill for Claude Code, Cursor and Codex.",
+      "note_pl": "Design review przeciwko generycznemu 'AI look' dla Claude Code, Cursor i Codex.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "category": "design",
+      "tags": [
+        "diagrams",
+        "editorial"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 1,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "MengTo/Skills",
+      "category": "design",
+      "tags": [
+        "expert",
+        "design",
+        "codex",
+        "builder"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [],
+      "note": "A large collection of design and builder skills from Meng To.",
+      "note_pl": "Duży zbiór skilli designerskich i builderskich od Meng To.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "category": "design",
+      "tags": [
+        "ui",
+        "react",
+        "components"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Focused UI skills for modern React interfaces.",
+      "note_pl": "Skupione skille UI do nowoczesnych interfejsów React.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "bergside/awesome-design-skills",
+      "category": "design",
+      "tags": [
+        "styles",
+        "design",
+        "reference"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "bento",
+        "brutalism",
+        "editorial",
+        "minimal",
+        "retro",
+        "glassmorphism",
+        "gradient",
+        "bold",
+        "artistic",
+        "agentic"
+      ],
+      "note": "A palette of explicit visual styles as DESIGN.md / SKILL.md files.",
+      "note_pl": "Paleta konkretnych stylów wizualnych jako pliki DESIGN.md / SKILL.md.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Manavarya09/design-extract",
+      "category": "design",
+      "tags": [
+        "design-system",
+        "tokens",
+        "scraping"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Extracts a website's design system into design tokens with one command.",
+      "note_pl": "Wyciąga design system strony do tokenów jedną komendą.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Dammyjay93/interface-design",
+      "category": "design",
+      "tags": [
+        "design-engineering",
+        "craft",
+        "memory"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Design engineering with craft, memory and enforcement for consistent UI.",
+      "note_pl": "Design engineering z pamięcią i egzekwowaniem spójnego UI.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "category": "design",
+      "tags": [
+        "design",
+        "ui"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 3,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "hugohe3/ppt-master",
+      "category": "documents",
+      "tags": [
+        "pptx",
+        "slides",
+        "presentations"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Native PowerPoint decks with real shapes and charts from documents or topics.",
+      "note_pl": "Natywne prezentacje PowerPoint z prawdziwymi kształtami i wykresami.",
+      "packs": [
+        "documents"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "category": "data",
+      "tags": [
+        "science",
+        "research",
+        "bioinformatics",
+        "chemistry"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 18,
+      "picks": [
+        "13c-metabolic-flux",
+        "adaptyv",
+        "aeon",
+        "alphagenome",
+        "analytical-method-validation",
+        "anndata",
+        "arbor",
+        "astropy",
+        "autoskill",
+        "bgpt-paper-search",
+        "biopython",
+        "bioservices",
+        "bulk-rnaseq",
+        "citation-management",
+        "clinical-decision-support",
+        "geopandas",
+        "literature-review",
+        "paper-lookup"
+      ],
+      "note": "177+ validated science skills and 100+ scientific databases, used by research teams.",
+      "note_pl": "177+ zwalidowanych skilli naukowych i 100+ baz danych dla zespołów researchowych.",
+      "packs": [
+        "data"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "firecrawl/skills",
+      "category": "data",
+      "tags": [
+        "web",
+        "scraping",
+        "research",
+        "search"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 14,
+      "picks": [
+        "firecrawl-search",
+        "firecrawl-scrape",
+        "firecrawl-crawl",
+        "firecrawl-agent",
+        "firecrawl-alexandria",
+        "firecrawl-build",
+        "firecrawl-build-search"
+      ],
+      "note": "Official Firecrawl skills for search, scrape, crawl and agentic web research.",
+      "note_pl": "Oficjalne skille Firecrawl: search, scrape, crawl i research w sieci.",
+      "packs": [
+        "data",
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "category": "data",
+      "tags": [
+        "research",
+        "papers",
+        "review"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Comprehensive AI-research workflows: literature, experiments, writing and review.",
+      "note_pl": "Kompletne workflowy researchowe: literatura, eksperymenty, pisanie i review.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Weizhena/Deep-Research-skills",
+      "category": "data",
+      "tags": [
+        "research",
+        "reports",
+        "deep-research"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [
+        "research",
+        "research-deep",
+        "research-report",
+        "research-add-items",
+        "research-add-fields"
+      ],
+      "note": "Structured deep research with human-in-the-loop checkpoints.",
+      "note_pl": "Ustrukturyzowany deep research z punktami kontrolnymi człowieka.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "category": "data",
+      "tags": [
+        "academic",
+        "writing",
+        "research"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 6,
+      "picks": [],
+      "note": "Academic research → write → review → revise → finalize workflow.",
+      "note_pl": "Workflow akademicki: research → pisanie → review → poprawki → finał.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Yuan1z0825/nature-skills",
+      "category": "data",
+      "tags": [
+        "academic",
+        "nature",
+        "figures"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Nature-style academic writing and scientific figure skills.",
+      "note_pl": "Skille do akademickiego pisania i figur w stylu Nature.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "zLanqing/codex-claude-academic-skills",
+      "category": "data",
+      "tags": [
+        "academic",
+        "literature",
+        "writing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Academic skills for literature reading, paper writing and scientific computing.",
+      "note_pl": "Skille akademickie: czytanie literatury, pisanie prac i obliczenia naukowe.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "category": "data",
+      "tags": [
+        "research",
+        "trends",
+        "news"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Researches any topic across Reddit, X, YouTube, HN and prediction markets.",
+      "note_pl": "Researchuje temat na Reddicie, X, YouTube, HN i rynkach predykcyjnych.",
+      "packs": [
+        "research"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "RKiding/Awesome-finance-skills",
+      "category": "business",
+      "tags": [
+        "finance",
+        "markets",
+        "analysis"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Finance agent skills for news, sentiment, prediction and reporting.",
+      "note_pl": "Skille finansowe: newsy, sentyment, predykcje i raporty.",
+      "packs": [
+        "finance"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "category": "business",
+      "tags": [
+        "trading",
+        "investing",
+        "markets"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Equity research and trading skills for investors.",
+      "note_pl": "Skille do researchu giełdowego i inwestowania.",
+      "packs": [
+        "finance"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "jup-ag/agent-skills",
+      "category": "specialized",
+      "tags": [
+        "solana",
+        "jupiter",
+        "web3"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Skills for integrating with the Jupiter / Solana ecosystem.",
+      "note_pl": "Skille do integracji z ekosystemem Jupiter / Solana.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "twostraws/SwiftUI-Agent-Skill",
+      "category": "specialized",
+      "tags": [
+        "swiftui",
+        "ios",
+        "swift"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "SwiftUI guidance for coding agents.",
+      "note_pl": "Wiedza o SwiftUI dla agentów.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "dgreenheck/webgpu-claude-skill",
+      "category": "specialized",
+      "tags": [
+        "webgpu",
+        "threejs",
+        "shaders"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "WebGPU, Three.js TSL and WGSL shader skill.",
+      "note_pl": "Skill WebGPU, Three.js TSL i shadery WGSL.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": "No LICENSE file detected. Check the upstream repository before reuse."
+    },
+    {
+      "repo": "pluginagentmarketplace/custom-plugin-game-developer",
+      "category": "specialized",
+      "tags": [
+        "gamedev",
+        "unity",
+        "unreal"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Game-development skills: design, engines, graphics, audio, networking, publishing.",
+      "note_pl": "Skille gamedev: design, silniki, grafika, audio, sieć, publishing.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "category": "specialized",
+      "tags": [
+        "gamedev",
+        "directory"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "A curated directory of game-development agent skills.",
+      "note_pl": "Katalog skilli do tworzenia gier.",
+      "packs": [
+        "mobile"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "category": "business",
+      "tags": [
+        "marketing",
+        "cro",
+        "seo",
+        "copywriting"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "ab-testing",
+        "ad-creative",
+        "ads",
+        "ai-seo",
+        "analytics",
+        "aso",
+        "attribution",
+        "copywriting",
+        "cro",
+        "emails",
+        "signup",
+        "pricing",
+        "seo-audit",
+        "social"
+      ],
+      "note": "Marketing skills for agents: CRO, copywriting, SEO, ads, analytics and attribution.",
+      "note_pl": "Skille marketingowe: CRO, copywriting, SEO, reklamy, analityka i atrybucja.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "category": "business",
+      "tags": [
+        "product",
+        "prd",
+        "okrs",
+        "gtm"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 14,
+      "picks": [
+        "create-prd",
+        "brainstorm-okrs",
+        "ab-test-analysis",
+        "cohort-analysis",
+        "sql-queries",
+        "user-stories",
+        "outcome-roadmap",
+        "competitor-analysis",
+        "intended-vs-implemented"
+      ],
+      "note": "100+ product-management skills: discovery, strategy, execution, launch and growth.",
+      "note_pl": "100+ skilli product managementu: discovery, strategia, egzekucja, launch i growth.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "slavingia/skills",
+      "category": "business",
+      "tags": [
+        "startup",
+        "minimalist",
+        "founder"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [
+        "company-values",
+        "find-community",
+        "first-customers",
+        "grow-sustainably",
+        "marketing-plan",
+        "minimalist-review",
+        "mvp",
+        "pricing"
+      ],
+      "note": "Founder skills based on The Minimalist Entrepreneur by Sahil Lavingia.",
+      "note_pl": "Skille dla founderów na podstawie 'The Minimalist Entrepreneur'.",
+      "packs": [
+        "business"
+      ],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "ognjengt/founder-skills",
+      "category": "business",
+      "tags": [
+        "founder",
+        "gtm",
+        "copywriting"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Founder pack: PRD, CRO, GTM, LinkedIn writing, outreach, pricing and launch.",
+      "note_pl": "Pakiet founder: PRD, CRO, GTM, LinkedIn, outreach, pricing i launch.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "wondelai/skills",
+      "category": "business",
+      "tags": [
+        "frameworks",
+        "business",
+        "ux"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [],
+      "note": "Business, marketing and UX frameworks as reusable skills.",
+      "note_pl": "Frameworki biznesowe, marketingowe i UX jako skille.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "deanpeters/Product-Manager-Skills",
+      "category": "business",
+      "tags": [
+        "product",
+        "frameworks",
+        "pm"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "A product-management framework built on battle-tested PM practices.",
+      "note_pl": "Framework product managementu oparty o sprawdzone praktyki PM.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "sergebulaev/linkedin-skills",
+      "category": "business",
+      "tags": [
+        "linkedin",
+        "social",
+        "writing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "LinkedIn writing and content skills for Claude Code and Codex.",
+      "note_pl": "Skille do pisania na LinkedIn dla Claude Code i Codex.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "category": "business",
+      "tags": [
+        "seo",
+        "content",
+        "search"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "SEO-oriented skills for agents.",
+      "note_pl": "Skille SEO dla agentów.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "irinabuht12-oss/marketing-skills",
+      "category": "business",
+      "tags": [
+        "marketing",
+        "skills"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "blader/humanizer",
+      "category": "writing",
+      "tags": [
+        "writing",
+        "ai-detection",
+        "editing"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "Removes the most common signs of AI-generated writing from text.",
+      "note_pl": "Usuwa najczęstsze oznaki tekstu generowanego przez AI.",
+      "packs": [
+        "writing"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "conorbronsdon/avoid-ai-writing",
+      "category": "writing",
+      "tags": [
+        "writing",
+        "editing",
+        "audit"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": "Audits and rewrites content to remove AI-writing tells.",
+      "note_pl": "Audytuje i przepisuje tekst, usuwając 'AI-owe' tiki.",
+      "packs": [
+        "writing"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "heydamir/unslop",
+      "category": "writing",
+      "tags": [
+        "writing",
+        "editing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 2,
+      "picks": [],
+      "note": "A compact anti-slop writing skill.",
+      "note_pl": "Krótki skill przeciwko 'AI slop' w tekście.",
+      "packs": [
+        "writing"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "career-ops-hq/career-ops",
+      "category": "business",
+      "tags": [
+        "career",
+        "jobs",
+        "automation"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Open-source job search and application agent skills.",
+      "note_pl": "Open-source skille do szukania pracy i aplikowania.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "directory",
+        "integrations"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 14,
+      "picks": [
+        "artifacts-builder",
+        "brand-guidelines",
+        "canvas-design",
+        "changelog-generator",
+        "competitive-ads-extractor",
+        "docx",
+        "pdf",
+        "internal-comms",
+        "mcp-builder",
+        "skill-creator",
+        "slack-gif-creator",
+        "theme-factory",
+        "webapp-testing"
+      ],
+      "note": "One of the largest community catalogs; many skills are generated app integrations — verify individually.",
+      "note_pl": "Jeden z największych katalogów; wiele skilli to generowane integracje — weryfikuj pojedynczo.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "directory",
+        "cli",
+        "mcp"
+      ],
+      "official": false,
+      "featured": true,
+      "tier": "essential",
+      "maxSkills": 16,
+      "picks": [
+        "accesslint-audit",
+        "agent-evaluation",
+        "context-window-management",
+        "llm-app-patterns",
+        "mcp-builder",
+        "prompt-engineering",
+        "rag-engineer",
+        "skill-security-audit",
+        "senior-fullstack",
+        "stripe-integration",
+        "ui-a11y",
+        "webapp-testing"
+      ],
+      "note": "Thousands of reusable skills plus a catalog-discovery CLI; huge but uneven — review before installing.",
+      "note_pl": "Tysiące skilli plus CLI do odkrywania; bardzo duże i nierówne — przeglądaj przed instalacją.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "category": "business",
+      "tags": [
+        "mega",
+        "roles",
+        "business",
+        "engineering"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "cs-senior-engineer",
+        "cs-frontend-engineer",
+        "cs-backend-engineer",
+        "cs-product-manager",
+        "cs-cto-advisor",
+        "seo-auditor",
+        "prd",
+        "tdd",
+        "tech-debt",
+        "financial-health",
+        "retro"
+      ],
+      "note": "400+ role-based skills: engineering, product, marketing, finance and operations.",
+      "note_pl": "400+ skilli opartych na rolach: inżynieria, produkt, marketing, finanse i operacje.",
+      "packs": [
+        "business"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "wshobson/agents",
+      "category": "learning",
+      "tags": [
+        "plugins",
+        "agents",
+        "skills",
+        "claude-code"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 14,
+      "picks": [
+        "code-review-excellence",
+        "debugging-strategies",
+        "api-design-principles",
+        "architecture-patterns",
+        "nextjs-app-router-patterns",
+        "tailwind-design-system",
+        "github-actions-templates",
+        "secrets-management",
+        "sql-optimization-patterns",
+        "e2e-testing-patterns"
+      ],
+      "note": "Plugins, agents, skills and commands for Claude Code and Codex.",
+      "note_pl": "Pluginy, agenci, skille i komendy dla Claude Code i Codex.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Jeffallan/claude-skills",
+      "category": "engineering",
+      "tags": [
+        "fullstack",
+        "collection"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Specialized skills for full-stack developers.",
+      "note_pl": "Specjalistyczne skille dla full-stack developerów.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "TerminalSkills/skills",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "directory",
+        "tools"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [
+        "a2a-protocol",
+        "agent-memory",
+        "ai-eval-ci",
+        "api-tester",
+        "browser-use",
+        "docker-helper",
+        "fastapi",
+        "kubernetes-helm",
+        "playwright-testing",
+        "postgresql",
+        "react",
+        "typescript"
+      ],
+      "note": "A very large, alphabetically organized library of technology-specific skills.",
+      "note_pl": "Bardzo duża, alfabetyczna biblioteka skilli dla konkretnych technologii.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "foryourhealth111-pixel/Vibe-Skills",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "router",
+        "orchestration"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Intelligent skill routing and workflow orchestration plus a very large bundled library.",
+      "note_pl": "Inteligentny routing skilli i orkiestracja oraz bardzo duża dołączona biblioteka.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "jeremylongshore/tons-of-skills-marketplace",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "marketplace",
+        "plugins"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "A model-agnostic mega-marketplace of agent skills and plugins.",
+      "note_pl": "Niezależny od modelu mega-marketplace skilli i pluginów.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "LeoYeAI/agent-master-skills",
+      "category": "learning",
+      "tags": [
+        "mega",
+        "directory",
+        "marketing"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "A curated mega-collection spanning AI, coding, marketing and business.",
+      "note_pl": "Duża kolekcja obejmująca AI, kodowanie, marketing i biznes.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "VoltAgent/awesome-agent-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "curated",
+        "official-teams"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": "Curated list of official, vendor-maintained Agent Skills repositories.",
+      "note_pl": "Lista oficjalnych repozytoriów skilli utrzymywanych przez dostawców.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "Directory only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "uhub/awesome-agent-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "curated"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": "A curated awesome-list of Agent Skills frameworks and libraries.",
+      "note_pl": "Kuratowana lista frameworków i bibliotek Agent Skills.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "Directory only: no bundled SKILL.md files. Linked upstream projects keep their own licenses."
+    },
+    {
+      "repo": "travisvn/awesome-claude-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "ecosystem",
+        "docs"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": "Ecosystem tracker and documentation hub for Claude skills.",
+      "note_pl": "Mapa ekosystemu i dokumentacja skilli Claude.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "Directory/documentation only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "heilcheng/awesome-agent-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "multi-platform"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": "Multi-platform index of agent skills.",
+      "note_pl": "Wieloplatformowy indeks skilli agentowych.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "Directory only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "quality",
+        "curated"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": "Hand-picked, quality-first Claude Code resources.",
+      "note_pl": "Ręcznie wyselekcjonowane zasoby Claude Code.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "Directory only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "Prat011/awesome-llm-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "llm"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "No LICENSE detected in the GitHub API response."
+    },
+    {
+      "repo": "karanb192/awesome-claude-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "verified"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "Directory only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "BehiSecc/awesome-claude-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "security",
+        "creative"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "Directory only: no bundled SKILL.md files. Check each linked project license."
+    },
+    {
+      "repo": "gmh5225/awesome-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "community"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 0,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "composio-community/awesome-codex-skills",
+      "category": "learning",
+      "tags": [
+        "directory",
+        "codex",
+        "mega"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "No repo-level LICENSE; some skills ship their own LICENSE.txt."
+    },
+    {
+      "repo": "hoodini/ai-agents-skills",
+      "category": "learning",
+      "tags": [
+        "collection",
+        "aws",
+        "langchain",
+        "security"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "25+ specialized skills for AWS, LangChain, Vercel, Cloudflare, MongoDB and OWASP.",
+      "note_pl": "25+ specjalistycznych skilli: AWS, LangChain, Vercel, Cloudflare, MongoDB, OWASP.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": "No LICENSE file detected by the GitHub API. Verify upstream terms before reuse."
+    },
+    {
+      "repo": "mxyhi/ok-skills",
+      "category": "learning",
+      "tags": [
+        "curated",
+        "codex",
+        "cursor",
+        "playbooks"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 12,
+      "picks": [],
+      "note": "Curated playbooks for Codex, Claude Code, Cursor and other SKILL.md-compatible tools.",
+      "note_pl": "Kuratowane playbooki dla Codex, Claude Code, Cursor i innych agentów SKILL.md.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "simota/agent-skills",
+      "category": "learning",
+      "tags": [
+        "collection",
+        "specialists",
+        "orchestration"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "90 specialist agents and skill packs with hub-spoke orchestration.",
+      "note_pl": "90 specjalistycznych agentów i pakietów skilli z orkiestracją hub-spoke.",
+      "packs": [
+        "learning"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "KKKKhazix/khazix-skills",
+      "category": "specialized",
+      "tags": [
+        "chinese",
+        "writing",
+        "analysis"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 6,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "category": "workflow",
+      "tags": [
+        "context",
+        "memory",
+        "optimization"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "stablyai/orca",
+      "category": "workflow",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "terminal"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Run a fleet of coding agents from one terminal workspace.",
+      "note_pl": "Uruchamia flotę agentów kodujących z jednego terminala.",
+      "packs": [
+        "workflow"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "category": "design",
+      "tags": [
+        "diagrams",
+        "architecture",
+        "explainer"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 6,
+      "picks": [],
+      "note": "Turns ideas, plans and codebases into interactive diagrams and one-page answers.",
+      "note_pl": "Zamienia pomysły, plany i kod w interaktywne diagramy i jednostronicowe wyjaśnienia.",
+      "packs": [
+        "frontend"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "Egonex-AI/Understand-Anything",
+      "category": "data",
+      "tags": [
+        "knowledge-graph",
+        "codebase",
+        "learning"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 8,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "category": "workflow",
+      "tags": [
+        "memory",
+        "persistence",
+        "sessions"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 10,
+      "picks": [],
+      "note": "Persistent context across agent sessions.",
+      "note_pl": "Stały kontekst pomiędzy sesjami agenta.",
+      "packs": [
+        "workflow"
+      ],
+      "license_note": null
+    },
+    {
+      "repo": "nizos/tdd-guard",
+      "category": "engineering",
+      "tags": [
+        "tdd"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 1,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "alchaincyf/huashu-design",
+      "category": "design",
+      "tags": [
+        "design",
+        "chinese"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 1,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": null
+    },
+    {
+      "repo": "chrisvoncsefalvay/claude-d3js-skill",
+      "category": "design",
+      "tags": [
+        "d3",
+        "visualization"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 1,
+      "picks": [],
+      "note": null,
+      "note_pl": null,
+      "packs": [],
+      "license_note": "No LICENSE file detected. Check the upstream repository before reuse."
+    },
+    {
+      "repo": "oil-oil/beautify-github-readme",
+      "category": "writing",
+      "tags": [
+        "readme",
+        "github",
+        "design"
+      ],
+      "official": false,
+      "featured": false,
+      "tier": "curated",
+      "maxSkills": 1,
+      "picks": [],
+      "note": "Makes GitHub READMEs clearer and better looking.",
+      "note_pl": "Poprawia czytelność i wygląd README na GitHubie.",
+      "packs": [],
+      "license_note": null
+    }
+  ]
+}

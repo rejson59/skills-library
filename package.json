@@ -1,0 +1,17 @@
+{
+  "name": "skills-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open, reproducible index of the best open-source Agent Skills on GitHub, with a zero-dependency bilingual website.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "start": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "update": "python3 scripts/build_catalog.py",
+    "validate": "python3 scripts/validate_catalog.py",
+    "query": "python3 scripts/query_catalog.py"
+  },
+  "engines": {
+    "node": ">=22.20"
+  }
+}

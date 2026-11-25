@@ -1,0 +1,66 @@
+# Skills Library
+
+> An open, reproducible index of the best open-source Agent Skills (SKILL.md) on GitHub.
+> Maintained at https://github.com/rejson59/skills-library
+
+Generated: 2026-11-25
+Scanned repositories: 472
+SKILL.md files found: 108698
+Collections in catalog: 201 (124 curated, 77 auto-discovered)
+Individually indexed skills: 976
+
+## Machine-readable data
+
+- data/catalog.json — full catalog: meta, categories, agents, packs, spotlight, collections, skills
+- data/catalog.js — the same object as `window.__SKILLS_LIBRARY__` for the static website
+- data/discovered.json — repositories found automatically but not editorially reviewed
+- data/schema.json — JSON Schema for catalog.json
+- CATALOG.md — human-readable markdown catalog
+
+## Skill record fields
+
+id, collectionId, repo, owner, folder, name, title, description, shortDescription, path, skillDir, sourceUrl, rawUrl, category, tags, license, stars, pushedAt, daysSincePush, freshness, official, featured, tier, reviewed, spotlight, specCompliant, verified, contentLength, frontmatter, review, safeUse, install, score.
+
+## Collection record fields
+
+id, repo, owner, name, url, homepage, description, note, notePl, category, tags, stars, forks, language, topics, branch, pushedAt, daysSincePush, freshness, archived, license, skillCount, sourceType, skillFileCount, truncatedTree, official, featured, tier, reviewed, packs, score, install, verifiedSkills, maxSkills, picks.
+
+## Install a skill
+
+npx skills add https://github.com/<owner>/<repo>/tree/<branch>/<path-to-skill-folder>
+npx skills add <owner>/<repo> --skill <folder>        # when the CLI can discover it
+npx skills add <owner>/<repo> --skill <folder> -g -y   # global
+
+## Top curated collections
+
+- mattpocock/skills — 332,737 stars, 39 unique skills — https://github.com/mattpocock/skills
+- obra/superpowers — 326,423 stars, 15 unique skills — https://github.com/obra/superpowers
+- affaan-m/ECC — 310,591 stars, 331 unique skills — https://github.com/affaan-m/ECC
+- multica-ai/andrej-karpathy-skills — 235,663 stars, 1 unique skills — https://github.com/multica-ai/andrej-karpathy-skills
+- anthropics/skills — 200,383 stars, 20 unique skills — https://github.com/anthropics/skills
+- DietrichGebert/ponytail — 198,597 stars, 6 unique skills — https://github.com/DietrichGebert/ponytail
+- nextlevelbuilder/ui-ux-pro-max-skill — 154,101 stars, 7 unique skills — https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- JuliusBrussee/caveman — 122,797 stars, 22 unique skills — https://github.com/JuliusBrussee/caveman
+- Leonxlnx/taste-skill — 121,461 stars, 1 unique skills — https://github.com/Leonxlnx/taste-skill
+- addyosmani/agent-skills — 120,384 stars, 26 unique skills — https://github.com/addyosmani/agent-skills
+- pbakaus/impeccable — 116,740 stars, 2 unique skills — https://github.com/pbakaus/impeccable
+- ComposioHQ/awesome-claude-skills — 80,290 stars, 864 unique skills — https://github.com/ComposioHQ/awesome-claude-skills
+- cloudflare/security-audit-skill — 78,258 stars, 1 unique skills — https://github.com/cloudflare/security-audit-skill
+- blader/humanizer — 73,518 stars, 1 unique skills — https://github.com/blader/humanizer
+- coreyhaines31/marketingskills — 62,592 stars, 53 unique skills — https://github.com/coreyhaines31/marketingskills
+- ayghri/i-have-adhd — 62,288 stars, 1 unique skills — https://github.com/ayghri/i-have-adhd
+- Nutlope/hallmark — 60,973 stars, 1 unique skills — https://github.com/Nutlope/hallmark
+- emilkowalski/skills — 59,487 stars, 20 unique skills — https://github.com/emilkowalski/skills
+- K-Dense-AI/scientific-agent-skills — 58,455 stars, 177 unique skills — https://github.com/K-Dense-AI/scientific-agent-skills
+- obsidianmd/obsidian-skills — 53,745 stars, 7 unique skills — https://github.com/obsidianmd/obsidian-skills
+- sickn33/agentic-awesome-skills — 50,317 stars, 3,139 unique skills — https://github.com/sickn33/agentic-awesome-skills
+- anthropics/claude-plugins-official — 48,190 stars, 58 unique skills — https://github.com/anthropics/claude-plugins-official
+- github/awesome-copilot — 41,558 stars, 481 unique skills — https://github.com/github/awesome-copilot
+- vercel-labs/skills — 40,865 stars, 3 unique skills — https://github.com/vercel-labs/skills
+- vercel-labs/agent-skills — 34,909 stars, 9 unique skills — https://github.com/vercel-labs/agent-skills
+
+## Trust
+
+Skills are third-party instructions and may contain scripts. This catalog verifies
+metadata and SKILL.md existence; it does not audit behavior. Always read the source
+and check the upstream license before installing.

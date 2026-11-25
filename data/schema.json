@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rejson59/skills-library/blob/main/data/schema.json",
+  "title": "Skills Library catalog",
+  "description": "Generated index of open-source Agent Skills (SKILL.md) on GitHub.",
+  "type": "object",
+  "required": ["meta", "categories", "agents", "packs", "spotlight", "collections", "skills"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version", "generatedAt", "generatedDate", "stats", "criteria"],
+      "properties": {
+        "version": { "type": "integer", "const": 1 },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "generatedDate": { "type": "string", "format": "date" },
+        "stats": { "type": "object" },
+        "criteria": { "type": "object" }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "en", "pl", "icon"],
+        "properties": {
+          "id": { "type": "string" },
+          "en": { "type": "string" },
+          "pl": { "type": "string" },
+          "icon": { "type": "string" },
+          "skillCount": { "type": "integer" },
+          "collectionCount": { "type": "integer" }
+        }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "id", "project", "global"],
+        "properties": {
+          "name": { "type": "string" },
+          "id": { "type": "string" },
+          "project": { "type": "string" },
+          "global": { "type": "string" }
+        }
+      }
+    },
+    "packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "skills", "script"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "object" },
+          "description": { "type": "object" },
+          "skills": { "type": "array", "items": { "type": "string" } },
+          "commands": { "type": "array", "items": { "type": "string" } },
+          "script": { "type": "string" }
+        }
+      }
+    },
+    "spotlight": { "type": "array", "items": { "type": "string" } },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "repo", "url", "description", "stars", "skillCount", "license", "tier", "reviewed", "install"],
+        "properties": {
+          "id": { "type": "string" },
+          "repo": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+          "url": { "type": "string", "format": "uri" },
+          "description": { "type": "string" },
+          "note": { "type": ["string", "null"] },
+          "notePl": { "type": ["string", "null"] },
+          "category": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "stars": { "type": "integer", "minimum": 0 },
+          "skillCount": { "type": "integer", "minimum": 0 },
+          "sourceType": { "enum": ["directory", "single", "collection"] },
+          "skillFileCount": { "type": "integer", "minimum": 0 },
+          "license": {
+            "type": "object",
+            "required": ["status", "label"],
+            "properties": {
+              "status": { "enum": ["clear", "check", "per-skill", "unknown"] },
+              "label": { "type": "string" },
+              "spdx": { "type": ["string", "null"] },
+              "note": { "type": ["string", "null"] },
+              "files": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "official": { "type": "boolean" },
+          "featured": { "type": "boolean" },
+          "tier": { "enum": ["essential", "curated", "discovered"] },
+          "reviewed": { "type": "boolean" },
+          "install": { "type": "string" }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "repo", "folder", "name", "description", "sourceUrl", "license", "install", "verified"],
+        "properties": {
+          "id": { "type": "string" },
+          "collectionId": { "type": "string" },
+          "repo": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+          "folder": { "type": "string" },
+          "name": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "shortDescription": { "type": "string" },
+          "path": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "rawUrl": { "type": "string", "format": "uri" },
+          "category": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "license": { "type": "object" },
+          "official": { "type": "boolean" },
+          "featured": { "type": "boolean" },
+          "spotlight": { "type": "boolean" },
+          "tier": { "enum": ["essential", "curated", "discovered"] },
+          "reviewed": { "type": "boolean" },
+          "specCompliant": { "type": "boolean" },
+          "verified": { "type": "boolean" },
+          "review": {
+            "type": "object",
+            "properties": {
+              "hasScripts": { "type": "boolean" },
+              "network": { "type": "boolean" },
+              "shell": { "type": "boolean" },
+              "allowedTools": { "type": "array", "items": { "type": "string" } },
+              "requiresReview": { "type": "boolean" }
+            }
+          },
+          "safeUse": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["code", "en", "pl"],
+              "properties": {
+                "code": { "enum": ["security", "chinese"] },
+                "en": { "type": "string" },
+                "pl": { "type": "string" }
+              }
+            }
+          },
+          "install": {
+            "type": "object",
+            "required": ["direct", "shorthand", "global", "manual", "collection"],
+            "properties": {
+              "direct": { "type": "string" },
+              "shorthand": { "type": "string" },
+              "global": { "type": "string" },
+              "use": { "type": "string" },
+              "manual": { "type": "string" },
+              "collection": { "type": "string" }
+            }
+          },
+          "score": { "type": "number" }
+        }
+      }
+    }
+  }
+}

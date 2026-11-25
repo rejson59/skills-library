@@ -1,0 +1,29 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Python scripts
+        run: python3 -m py_compile scripts/*.py
+      - name: Validate catalog
+        run: python3 scripts/validate_catalog.py
+      - name: Validate JSON files
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          for p in pathlib.Path('data').glob('*.json'):
+              json.loads(p.read_text(encoding='utf-8'))
+              print('ok', p)
+          PY
+      - name: Check website JavaScript
+        run: node --check assets/app.js
